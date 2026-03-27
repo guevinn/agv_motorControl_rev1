@@ -1234,7 +1234,7 @@
 			(symbol "A4915_1_1"
 				(rectangle
 					(start 0 0.635)
-					(end 15.24 -38.735)
+					(end 15.24 -39.37)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1245,7 +1245,7 @@
 					)
 				)
 				(text "A4915"
-					(at 2.54 -40.005 0)
+					(at 2.54 -40.64 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1756,106 +1756,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad_MP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad_MP"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_1_1"
-				(pin input line
-					(at 0 -2.54 90)
+				(pin power_in line
+					(at 17.78 -38.1 180)
 					(length 2.54)
-					(name "MP"
+					(name "THERM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3089,12 +3000,6 @@
 		(uuid "0cd2f926-8e30-47ea-9373-f0fc920742aa")
 	)
 	(junction
-		(at 243.84 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f023fb2-9556-45c1-8d03-a7ee480f2868")
-	)
-	(junction
 		(at 240.03 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3125,16 +3030,22 @@
 		(uuid "22c200c1-64c4-426b-a737-f38736fa1f4a")
 	)
 	(junction
+		(at 243.84 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f45ad4-e539-40ff-8296-aa909edffe56")
+	)
+	(junction
 		(at 58.42 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "244a078f-8bef-4e8a-a154-71091773b28e")
 	)
 	(junction
-		(at 219.71 27.94)
+		(at 69.85 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "25426681-caf8-4326-96f5-dba5574e423d")
+		(uuid "287ba9ca-7c15-425f-b4c1-2df58363e638")
 	)
 	(junction
 		(at 68.58 85.09)
@@ -3147,12 +3058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "338d144f-07aa-41fb-bebf-8c4a056e7d6c")
-	)
-	(junction
-		(at 223.52 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "374461c9-20f4-470c-8107-aa66ee5df2fb")
 	)
 	(junction
 		(at 59.69 104.14)
@@ -3173,6 +3078,12 @@
 		(uuid "44d801df-9a49-4121-a042-4f40844dc2f7")
 	)
 	(junction
+		(at 204.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47475dda-308f-4114-9662-7480d8035360")
+	)
+	(junction
 		(at 53.34 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3189,6 +3100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50694659-b6b4-4704-8975-e905fd5ba63c")
+	)
+	(junction
+		(at 267.97 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5487e28e-dad8-4985-9efb-7aef7d103b67")
 	)
 	(junction
 		(at 87.63 85.09)
@@ -3215,12 +3132,6 @@
 		(uuid "6a2dfb13-f757-437f-80fb-5cd4acde261a")
 	)
 	(junction
-		(at 204.47 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b72bd77-0949-4a7f-9bbe-4c7ab3e73f79")
-	)
-	(junction
 		(at 198.12 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3239,10 +3150,10 @@
 		(uuid "71cedd3c-a331-4861-bd7b-47e741e1cc54")
 	)
 	(junction
-		(at 247.65 59.69)
+		(at 54.61 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72d2c792-0f96-426b-bfdb-93efc2e96baa")
+		(uuid "796b9ede-16e9-42ae-9cb6-2175eb5b59dd")
 	)
 	(junction
 		(at 231.14 59.69)
@@ -3275,6 +3186,12 @@
 		(uuid "961db391-778d-417f-9147-19a67e87097e")
 	)
 	(junction
+		(at 102.87 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "963c2703-0c99-4ae5-9152-1b16984e799a")
+	)
+	(junction
 		(at 195.58 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3303,6 +3220,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae65cb21-4ce0-400e-9f4e-edf3126bd42f")
+	)
+	(junction
+		(at 223.52 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af80414e-bdc0-4f2d-8c8c-0efc6812dbce")
 	)
 	(junction
 		(at 191.77 59.69)
@@ -3341,12 +3264,6 @@
 		(uuid "bfe347fb-901c-44f8-9bd1-3124c491346b")
 	)
 	(junction
-		(at 218.44 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c15f9fd5-c517-42ca-821b-ec40a29048b5")
-	)
-	(junction
 		(at 160.02 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3383,6 +3300,12 @@
 		(uuid "d4c3df08-550d-43f9-ab88-5b8dbb358878")
 	)
 	(junction
+		(at 38.1 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4dc7bed-6d90-4360-bed4-f0ddca1db840")
+	)
+	(junction
 		(at 195.58 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3393,12 +3316,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dccf817a-b6ed-4f25-9ad3-f8d09fa67cf6")
-	)
-	(junction
-		(at 171.45 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3656817-5951-4166-bfb1-ff6150fe01a0")
 	)
 	(junction
 		(at 254 59.69)
@@ -3419,16 +3336,22 @@
 		(uuid "e6b05f64-cd7c-4272-9a2a-df9f22126c9f")
 	)
 	(junction
+		(at 22.86 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6bdf2b3-c29e-4766-8b29-ccaebb7cefb7")
+	)
+	(junction
+		(at 175.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e835dcea-7d7d-420c-b93c-9edfbc566782")
+	)
+	(junction
 		(at 231.14 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f47af665-cad4-4262-9183-2553adb006ef")
-	)
-	(junction
-		(at 171.45 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff6116dd-564d-44ab-99c5-56f3689f0efb")
 	)
 	(wire
 		(pts
@@ -3492,6 +3415,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 85.09) (xy 45.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a3dd49-9b55-4527-8808-1044299216ed")
+	)
+	(wire
+		(pts
 			(xy 68.58 90.17) (xy 68.58 85.09)
 		)
 		(stroke
@@ -3502,7 +3435,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 59.69) (xy 191.77 59.69)
+			(xy 267.97 81.28) (xy 267.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7e1b95-d890-44a6-8abc-946cd20a3f5e")
+	)
+	(wire
+		(pts
+			(xy 171.45 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d73167f-cf24-49b5-8045-1a6eecb233d9")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 191.77 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3772,6 +3725,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 64.77) (xy 102.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311ca9d8-f682-41c2-9aee-ec4e66abc39f")
+	)
+	(wire
+		(pts
 			(xy 58.42 104.14) (xy 58.42 105.41)
 		)
 		(stroke
@@ -3862,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 27.94) (xy 171.45 27.94)
+			(xy 168.91 27.94) (xy 191.77 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3872,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 27.94) (xy 219.71 27.94)
+			(xy 207.01 27.94) (xy 240.03 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4052,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 82.55) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dd8857-7a23-4bb0-9ae6-ae93739e581d")
+	)
+	(wire
+		(pts
 			(xy 119.38 120.65) (xy 132.08 120.65)
 		)
 		(stroke
@@ -4152,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 59.69) (xy 218.44 59.69)
+			(xy 207.01 59.69) (xy 231.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4209,16 +4182,6 @@
 			(type default)
 		)
 		(uuid "5dd38b08-f36a-4567-b8a4-c21e54a8eef4")
-	)
-	(wire
-		(pts
-			(xy 218.44 59.69) (xy 231.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e7f2803-6d4d-4160-8308-7605eb03b885")
 	)
 	(wire
 		(pts
@@ -4299,16 +4262,6 @@
 			(type default)
 		)
 		(uuid "68689fb6-6614-4efa-aee9-5889cb12994c")
-	)
-	(wire
-		(pts
-			(xy 254 59.69) (xy 247.65 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68cb54f9-2cb8-4401-9176-44ff919a0207")
 	)
 	(wire
 		(pts
@@ -4469,16 +4422,6 @@
 			(type default)
 		)
 		(uuid "7ede1c71-47cc-421f-8f00-5b98054c89e5")
-	)
-	(wire
-		(pts
-			(xy 168.91 59.69) (xy 171.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83750b23-fe72-4793-a98d-d460181b221e")
 	)
 	(wire
 		(pts
@@ -4692,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 85.09) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8933af-fd3d-4e8d-bf56-8aee4c7c64b7")
+	)
+	(wire
+		(pts
 			(xy 116.84 83.82) (xy 121.92 83.82)
 		)
 		(stroke
@@ -4822,6 +4775,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 81.28) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d7c4ea-90f1-4f1a-96c0-df213e395df0")
+	)
+	(wire
+		(pts
 			(xy 54.61 148.59) (xy 57.15 148.59)
 		)
 		(stroke
@@ -4892,6 +4855,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 64.77) (xy 102.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c175ce1a-1fa9-4fed-ae66-68a479bd5efa")
+	)
+	(wire
+		(pts
 			(xy 232.41 41.91) (xy 240.03 41.91)
 		)
 		(stroke
@@ -4899,16 +4872,6 @@
 			(type default)
 		)
 		(uuid "c359a07d-83da-45d3-abf9-b125ffcd4855")
-	)
-	(wire
-		(pts
-			(xy 219.71 27.94) (xy 240.03 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6151eeb-1a94-4bbd-954e-53b5ad1967e8")
 	)
 	(wire
 		(pts
@@ -4952,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 82.55) (xy 267.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9448601-9845-4a71-9b2c-26281fead7ea")
+	)
+	(wire
+		(pts
 			(xy 68.58 57.15) (xy 80.01 57.15)
 		)
 		(stroke
@@ -4972,7 +4945,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 78.74 85.09)
+			(xy 68.58 85.09) (xy 69.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5042,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 63.5) (xy 102.87 62.23)
+			(xy 102.87 69.85) (xy 102.87 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5142,7 +5115,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 59.69) (xy 240.03 59.69)
+			(xy 240.03 59.69) (xy 254 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5169,16 +5142,6 @@
 			(type default)
 		)
 		(uuid "e2550849-4138-47a4-98e0-7e77e0dda705")
-	)
-	(wire
-		(pts
-			(xy 171.45 27.94) (xy 168.91 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27f20d9-7220-4fdd-92b2-000bda5f9987")
 	)
 	(wire
 		(pts
@@ -5222,6 +5185,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 82.55) (xy 267.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7568703-19f8-447b-ad03-255cd55e330e")
+	)
+	(wire
+		(pts
 			(xy 207.01 29.21) (xy 207.01 27.94)
 		)
 		(stroke
@@ -5232,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 85.09) (xy 45.72 85.09)
+			(xy 35.56 85.09) (xy 38.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5962,7 +5935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "041a486a-6117-4d04-ab91-43917a34fe26")
-		(property "Reference" "J12"
+		(property "Reference" "HC1"
 			(at 100.584 96.266 0)
 			(effects
 				(font
@@ -6011,7 +5984,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J12")
+					(reference "HC1")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c9dc05f-d08a-43e8-8c50-88131a0e672a")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 256.794 41.402 0)
 			(effects
 				(font
@@ -6358,7 +6331,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6431,73 +6404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 223.52 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eec4fea-16a0-40f4-a2a8-bc3d19703759")
-		(property "Reference" "H8"
-			(at 226.06 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 226.06 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 223.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 223.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "ed18284d-4d63-446a-a3e7-966b12462678")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 186.69 41.91 270)
 		(unit 1)
@@ -6559,6 +6465,73 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 267.97 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ac56f8-ac1a-4b8a-aac9-648b8efde567")
+		(property "Reference" "J25"
+			(at 269.24 86.9949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 269.24 89.5349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f20e496-9606-4cc6-9d64-aebd1dbae48f")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -6788,7 +6761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2141bf8e-e5b5-4e6f-89ec-fb133de3df0a")
-		(property "Reference" "J5"
+		(property "Reference" "GND2"
 			(at 74.93 107.3149 90)
 			(effects
 				(font
@@ -6839,7 +6812,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J5")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -6910,73 +6883,6 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 171.45 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23d17d0e-58a3-48c5-a616-f4b20065f1b1")
-		(property "Reference" "H1"
-			(at 173.99 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 173.99 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 171.45 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 171.45 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "4d668b10-d7fe-4182-81d8-ffb96697d230")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7124,6 +7030,73 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
+		(at 204.47 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a1b5fd-aa69-4ef0-96f8-47288c662fc7")
+		(property "Reference" "J18"
+			(at 205.74 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 205.74 79.3749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bdeddc8-3328-41dd-a7f0-8de9fec55c26")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
 		(at 152.4 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7132,7 +7105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35c090ff-49a9-4c9e-bd3d-906f84a760ec")
-		(property "Reference" "J21"
+		(property "Reference" "J12"
 			(at 151.765 91.44 0)
 			(effects
 				(font
@@ -7181,7 +7154,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J21")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7401,7 +7374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a594325-b16f-4395-b39f-11a2e11ac41f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -7451,7 +7424,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ab30e91-0aa1-46f8-b7da-35d3d73c7de3")
-		(property "Reference" "J13"
+		(property "Reference" "LSS1"
 			(at 100.584 98.806 0)
 			(effects
 				(font
@@ -7515,74 +7488,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 247.65 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b36567d-22c2-4c20-9872-729204a711f2")
-		(property "Reference" "H11"
-			(at 250.19 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 250.19 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 247.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 247.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "d7c79600-fb75-4cbc-880b-2e348e259a03")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H11")
+					(reference "LSS1")
 					(unit 1)
 				)
 			)
@@ -7681,7 +7587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a5706e-b41e-4f28-9bac-ef71978629d0")
-		(property "Reference" "J6"
+		(property "Reference" "VDD1"
 			(at 83.82 79.3749 90)
 			(effects
 				(font
@@ -7732,74 +7638,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 204.47 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47570172-2ee2-4b2b-9064-ce51dfc1c3eb")
-		(property "Reference" "H4"
-			(at 207.01 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 207.01 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "ed52a850-01b8-4583-8a2e-258826b0a37c")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H4")
+					(reference "VDD1")
 					(unit 1)
 				)
 			)
@@ -7962,7 +7801,7 @@
 		(dnp no)
 		(uuid "4c18ca8e-cf35-430b-a0b7-5d22ffea2c28")
 		(property "Reference" "U2"
-			(at 83.566 24.765 0)
+			(at 83.82 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,10 +7927,80 @@
 		(pin "9"
 			(uuid "bb080669-d1ec-4849-847b-ec089a8aa0a6")
 		)
+		(pin "29"
+			(uuid "53802eac-6fd2-4f95-b5d2-0ac1c8db09a2")
+		)
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 223.52 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c72d8fc-cf89-452b-a16f-7b6b2cb9d158")
+		(property "Reference" "J21"
+			(at 224.79 88.2649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 224.79 90.8049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9c92d0b-05db-42f7-b0db-a45777a10ac9")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -8306,73 +8215,6 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 171.45 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50f75007-19fd-483f-a588-991e403f40cc")
-		(property "Reference" "H2"
-			(at 173.99 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 173.99 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "d2babc99-a32c-480f-acc4-e5b5c9318685")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8711,6 +8553,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 171.45 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e6407b1-f6e1-4fcf-8209-691c79aa5e64")
+		(property "Reference" "#PWR014"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70c0053b-891e-4350-aa4b-87a054c8965c")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 93.98 0)
 		(unit 1)
@@ -8781,73 +8689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 219.71 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6305ceed-562c-4b1a-9fbc-cfe3cbdf3af8")
-		(property "Reference" "H6"
-			(at 222.25 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 222.25 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "15b8237d-a789-4875-95a4-daaeb0dcad39")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 171.45 104.14 180)
 		(unit 1)
@@ -8857,7 +8698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650b0fa1-405f-4cc1-8b42-f564bb62093a")
-		(property "Reference" "J25"
+		(property "Reference" "J15"
 			(at 170.815 99.06 0)
 			(effects
 				(font
@@ -8906,7 +8747,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J25")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -8921,7 +8762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65edf4e2-0529-49f3-b7e2-733492fcc341")
-		(property "Reference" "J8"
+		(property "Reference" "DIR1"
 			(at 100.584 86.106 0)
 			(effects
 				(font
@@ -8970,7 +8811,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J8")
+					(reference "DIR1")
 					(unit 1)
 				)
 			)
@@ -9039,73 +8880,6 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 243.84 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69c9dd54-b654-4e32-a476-f10fb7f405dc")
-		(property "Reference" "H9"
-			(at 246.38 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 246.38 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 243.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 243.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "c55c8666-39bd-48e0-9953-9cfbac2307dd")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "758ac0e4-c262-4f08-bedf-97062f6683eb")
-		(property "Reference" "J22"
+		(property "Reference" "J13"
 			(at 158.115 93.98 0)
 			(effects
 				(font
@@ -9372,7 +9146,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J22")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -9525,7 +9299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b781fed-cf2c-4499-8ec0-13cd7d38aa25")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -9575,7 +9349,7 @@
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9660,7 +9434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "800fd1c7-d9bb-49fb-a1b4-4cce07918523")
-		(property "Reference" "J7"
+		(property "Reference" "EN3"
 			(at 100.584 83.566 0)
 			(effects
 				(font
@@ -9709,7 +9483,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J7")
+					(reference "EN3")
 					(unit 1)
 				)
 			)
@@ -9724,7 +9498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "807875cd-b376-47fd-9af4-700fd9494bf7")
-		(property "Reference" "J10"
+		(property "Reference" "HA1"
 			(at 100.584 91.186 0)
 			(effects
 				(font
@@ -9773,74 +9547,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 204.47 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81aa9bac-2ac6-48af-a6fd-3514da766202")
-		(property "Reference" "H3"
-			(at 207.01 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 207.01 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 204.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 204.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "77663228-d48c-4f1a-97d5-cfcc6cda74ac")
-		)
-		(instances
-			(project ""
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H3")
+					(reference "HA1")
 					(unit 1)
 				)
 			)
@@ -9856,7 +9563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81e1d479-a522-4a8c-ab6d-ffc42c128323")
-		(property "Reference" "J19"
+		(property "Reference" "J10"
 			(at 141.605 86.36 0)
 			(effects
 				(font
@@ -9905,7 +9612,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J19")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10055,7 +9762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "830b3d20-b2a2-429a-beb5-f9df7ecfdc7c")
-		(property "Reference" "J18"
+		(property "Reference" "J9"
 			(at 136.525 83.82 0)
 			(effects
 				(font
@@ -10104,7 +9811,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J18")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10190,73 +9897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 223.52 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86af205b-2a4f-46fe-8d90-49a8e3dcb52a")
-		(property "Reference" "H7"
-			(at 226.06 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 226.06 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 223.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 223.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "77dc4d61-bdfc-4c0c-a417-30f2c02b5998")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 160.02 46.99 90)
 		(unit 1)
@@ -10266,7 +9906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88c6fa5e-dda4-4c91-9110-b080970c0428")
-		(property "Reference" "J23"
+		(property "Reference" "A1"
 			(at 161.29 45.0849 90)
 			(effects
 				(font
@@ -10317,7 +9957,74 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J23")
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 243.84 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a82d99c-009d-4037-9165-201c532026e8")
+		(property "Reference" "J22"
+			(at 245.11 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 245.11 79.3749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "154b7676-aef3-4db2-9347-a79608f10e29")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9ecf22-472c-4e36-8e86-cdef28362430")
-		(property "Reference" "J17"
+		(property "Reference" "J8"
 			(at 131.445 81.28 0)
 			(effects
 				(font
@@ -10382,7 +10089,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J17")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10464,7 +10171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d731d57-b440-4305-ad57-d585700afff6")
-		(property "Reference" "J20"
+		(property "Reference" "J11"
 			(at 146.685 88.9 0)
 			(effects
 				(font
@@ -10513,7 +10220,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J20")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10731,7 +10438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c5d61e-bc7f-4603-a635-6d5a128fa805")
-		(property "Reference" "J2"
+		(property "Reference" "GND1"
 			(at 40.64 107.3149 90)
 			(effects
 				(font
@@ -10782,7 +10489,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J2")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -10855,6 +10562,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 243.84 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977e6e01-064f-4f70-94ad-57ee88592d50")
+		(property "Reference" "J23"
+			(at 245.11 88.2649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 245.11 90.8049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b99f947-f609-47ac-9c60-5364c04a92df")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 114.3 125.73 0)
 		(unit 1)
@@ -10864,7 +10638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0c25ea-6ff0-404d-bd6f-85682dfbbc87")
-		(property "Reference" "J28"
+		(property "Reference" "J6"
 			(at 114.935 115.57 0)
 			(effects
 				(font
@@ -10925,7 +10699,7 @@
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J28")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11000,73 +10774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 218.44 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d19d4cf-e132-497c-aab9-8248f7766b62")
-		(property "Reference" "H5"
-			(at 220.98 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 220.98 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "1879d033-0935-4486-82d9-a446dd0e831b")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 34.29 85.09 0)
 		(unit 1)
@@ -11127,6 +10834,70 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 54.61 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a40870db-dba4-49fb-b3fc-c2f7ead15d07")
+		(property "Reference" "EN2"
+			(at 54.356 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22AWG"
+			(at 54.356 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac6b281-0dc1-433a-897c-2b5d9434eaa7")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "EN2")
 					(unit 1)
 				)
 			)
@@ -11214,7 +10985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7398edf-3ec1-421f-850a-712115f9a9e2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 53.34 34.29 0)
 			(effects
 				(font
@@ -11265,7 +11036,71 @@
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "#PWR07")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 22.86 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa9bbcd1-2caa-4a6a-929e-dfdcf255b003")
+		(property "Reference" "EN1"
+			(at 22.606 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22AWG"
+			(at 22.606 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0849a60-76a6-4138-ba20-4937d6a09740")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "EN1")
 					(unit 1)
 				)
 			)
@@ -11327,22 +11162,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "2aaacc2c-86b2-499c-a711-0ee6764e4ac6")
+			(uuid "2aaacc2c-86b2-499c-a711-0ee6764e4ac7")
 		)
 		(pin "2"
-			(uuid "d7698ab3-f48e-485a-a6fa-b1c42417ed27")
+			(uuid "d7698ab3-f48e-485a-a6fa-b1c42417ed28")
 		)
 		(pin "1"
-			(uuid "f7cf9b14-84a3-4cca-a514-2e4f43839619")
+			(uuid "f7cf9b14-84a3-4cca-a514-2e4f4383961a")
 		)
 		(pin "6"
-			(uuid "70f39812-52e5-4f32-adf9-e0f7fbdbfa62")
+			(uuid "70f39812-52e5-4f32-adf9-e0f7fbdbfa63")
 		)
 		(pin "3"
-			(uuid "9135e988-98ad-4c4d-bb40-12c4ad469ead")
+			(uuid "9135e988-98ad-4c4d-bb40-12c4ad469eae")
 		)
 		(pin "4"
-			(uuid "36edcc5f-d45f-4d42-905d-a0c26a43e358")
+			(uuid "36edcc5f-d45f-4d42-905d-a0c26a43e359")
 		)
 		(instances
 			(project ""
@@ -11363,7 +11198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abec5f74-66fd-4a5a-90e1-5e788dd5ecc8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 132.08 139.7 0)
 			(effects
 				(font
@@ -11413,7 +11248,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11486,73 +11321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 243.84 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad7c9fe5-f2f0-4f25-a0f0-8f029444127e")
-		(property "Reference" "H10"
-			(at 246.38 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2mmTH"
-			(at 246.38 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 243.84 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 243.84 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "e3f8272b-b8ce-418e-a89e-ef4e5d955b6c")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 127 83.82 180)
 		(unit 1)
@@ -11562,7 +11330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b255011f-6aa3-4fa4-910d-00a798bbcb32")
-		(property "Reference" "J16"
+		(property "Reference" "J7"
 			(at 126.365 78.74 0)
 			(effects
 				(font
@@ -11611,7 +11379,7 @@
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J16")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11678,6 +11446,73 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 267.97 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b73e7d54-6b39-41d4-87f0-23353d859edb")
+		(property "Reference" "J24"
+			(at 269.24 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 269.24 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11634eed-cf46-4313-bd05-72ceda6c8ddc")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -11842,7 +11677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc86019-c62b-48ab-8b61-e8a73cbc0570")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 191.77 71.12 0)
 			(effects
 				(font
@@ -11892,7 +11727,208 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "#PWR013")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 204.47 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc5f2a38-b16a-4feb-98ce-b3890d6b25b5")
+		(property "Reference" "J19"
+			(at 205.74 88.2649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 205.74 90.8049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ec6d694-5cee-4633-b5fb-a23514f0d357")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 223.52 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed65496-3062-47a6-ab06-585399732617")
+		(property "Reference" "J20"
+			(at 224.79 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 224.79 79.3749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 223.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 223.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b4c64e-b1f9-4681-8950-26331248f45d")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 175.26 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2cbe9d6-9c49-44ec-8ece-69cdc2b0fa0d")
+		(property "Reference" "J16"
+			(at 176.53 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 176.53 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c8e103-870f-42cb-92f1-14f285dfe240")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -12113,7 +12149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5149ae-70f2-45c7-9f81-650130a6ea32")
-		(property "Reference" "J24"
+		(property "Reference" "J14"
 			(at 164.465 96.52 0)
 			(effects
 				(font
@@ -12162,7 +12198,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J24")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -12245,7 +12281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d119078f-bbc4-421c-923c-45da1f0884e5")
-		(property "Reference" "J14"
+		(property "Reference" "FAULT1"
 			(at 100.584 101.346 0)
 			(effects
 				(font
@@ -12294,7 +12330,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J14")
+					(reference "FAULT1")
 					(unit 1)
 				)
 			)
@@ -12749,16 +12785,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 63.5 0)
+		(at 102.87 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7e7d81d-f589-4444-9dc1-13e97291a5e8")
 		(property "Reference" "#PWR010"
-			(at 102.87 69.85 0)
+			(at 102.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +12803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 68.58 0)
+			(at 102.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12775,7 +12811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 63.5 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12784,7 +12820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 63.5 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12793,7 +12829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 63.5 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d850d382-af96-46b8-8f38-5980f4a7ddc1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 132.08 124.46 0)
 			(effects
 				(font
@@ -12872,7 +12908,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12887,7 +12923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d95e2b8e-58d3-4627-9b6d-e08c976f04cf")
-		(property "Reference" "J9"
+		(property "Reference" "nBRAKE1"
 			(at 100.584 88.646 0)
 			(effects
 				(font
@@ -12936,7 +12972,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J9")
+					(reference "nBRAKE1")
 					(unit 1)
 				)
 			)
@@ -13004,6 +13040,73 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 69.85 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9ddeb90-4622-4896-9f5d-8ef05fc22acc")
+		(property "Reference" "J5"
+			(at 71.12 79.3749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 71.12 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e6818d7-8f99-41a3-b2c7-27172f87b004")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13087,7 +13190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc538af-337a-4b43-a435-0b614635c422")
-		(property "Reference" "J27"
+		(property "Reference" "C11"
 			(at 233.68 45.0849 90)
 			(effects
 				(font
@@ -13138,7 +13241,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J27")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13209,6 +13312,73 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 175.26 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1afe25f-ddf2-4c41-94c0-f2807b08fd67")
+		(property "Reference" "J17"
+			(at 176.53 86.9949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 176.53 89.5349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40faeaf4-c085-48c2-914d-eb349346da49")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -13427,7 +13597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f03cee35-20ec-4236-8fb4-158996d260b2")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 267.208 41.656 0)
 			(effects
 				(font
@@ -13481,7 +13651,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13496,7 +13666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1329571-6c19-4e50-8867-db5592d2b915")
-		(property "Reference" "J15"
+		(property "Reference" "SPEED1"
 			(at 100.711 103.378 0)
 			(effects
 				(font
@@ -13545,7 +13715,140 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J15")
+					(reference "SPEED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f276c2d8-59b0-4b95-a0f2-a461697e9bca")
+		(property "Reference" "#PWR017"
+			(at 259.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40b5ad92-c69c-48c3-9cd4-449a6f525be4")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 38.1 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f314c1a0-1cbb-487d-a2b6-3820580d3b48")
+		(property "Reference" "J2"
+			(at 39.37 79.3749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_HOLE"
+			(at 39.37 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eb12d6a-9038-427b-9772-c1f73aae301c")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13906,7 +14209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbf8954b-ef73-4707-8a2d-83b2bd90aec7")
-		(property "Reference" "J26"
+		(property "Reference" "B1"
 			(at 199.39 45.0849 90)
 			(effects
 				(font
@@ -13957,7 +14260,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J26")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -14134,7 +14437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf41fbd-5807-4b98-b9a1-4c5d38f9f81a")
-		(property "Reference" "J11"
+		(property "Reference" "HB1"
 			(at 100.584 93.726 0)
 			(effects
 				(font
@@ -14183,7 +14486,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J11")
+					(reference "HB1")
 					(unit 1)
 				)
 			)
