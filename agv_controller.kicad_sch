@@ -3150,10 +3150,10 @@
 		(uuid "71cedd3c-a331-4861-bd7b-47e741e1cc54")
 	)
 	(junction
-		(at 54.61 148.59)
+		(at 22.86 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "796b9ede-16e9-42ae-9cb6-2175eb5b59dd")
+		(uuid "78cd7f6c-872e-4b8d-aaea-ab8b0fc7f637")
 	)
 	(junction
 		(at 231.14 59.69)
@@ -3204,6 +3204,12 @@
 		(uuid "96dbdcff-9c19-4dcd-a942-b7aab2376bdd")
 	)
 	(junction
+		(at 54.61 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4a90e3-7f3b-4a0c-b5b4-d91b0b3a5f53")
+	)
+	(junction
 		(at 240.03 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3226,6 +3232,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af80414e-bdc0-4f2d-8c8c-0efc6812dbce")
+	)
+	(junction
+		(at 54.61 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b02ba6e1-fbf4-4be0-a95a-63e789d0b5da")
 	)
 	(junction
 		(at 191.77 59.69)
@@ -3300,12 +3312,6 @@
 		(uuid "d4c3df08-550d-43f9-ab88-5b8dbb358878")
 	)
 	(junction
-		(at 38.1 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4dc7bed-6d90-4360-bed4-f0ddca1db840")
-	)
-	(junction
 		(at 195.58 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3334,12 +3340,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b05f64-cd7c-4272-9a2a-df9f22126c9f")
-	)
-	(junction
-		(at 22.86 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6bdf2b3-c29e-4766-8b29-ccaebb7cefb7")
 	)
 	(junction
 		(at 175.26 82.55)
@@ -3415,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 85.09) (xy 45.72 85.09)
+			(xy 35.56 85.09) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3555,6 +3555,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 157.48) (xy 64.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d1f214-b235-44bb-9a54-39213171d96a")
+	)
+	(wire
+		(pts
 			(xy 207.01 44.45) (xy 207.01 46.99)
 		)
 		(stroke
@@ -3632,6 +3642,26 @@
 			(type default)
 		)
 		(uuid "2650a37d-0cf3-46de-b76c-81f5546832c9")
+	)
+	(wire
+		(pts
+			(xy 22.86 156.21) (xy 22.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e0e370-43fd-4084-92c8-9db2ebad0a4e")
+	)
+	(wire
+		(pts
+			(xy 39.37 157.48) (xy 22.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ed43ab-9918-4d65-afa6-c6d463ee10e2")
 	)
 	(wire
 		(pts
@@ -4255,7 +4285,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 157.48) (xy 64.77 157.48)
+			(xy 39.37 157.48) (xy 54.61 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4765,6 +4795,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 156.21) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0260cc6-fa22-41b1-b141-2ec2ceb67fdb")
+	)
+	(wire
+		(pts
 			(xy 100.33 52.07) (xy 111.76 52.07)
 		)
 		(stroke
@@ -5202,16 +5242,6 @@
 			(type default)
 		)
 		(uuid "e99d6b8c-8b2f-41e2-9d9f-1a2352f44d70")
-	)
-	(wire
-		(pts
-			(xy 35.56 85.09) (xy 38.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea2d43d6-2573-4cb7-bb38-57e7502e3d6e")
 	)
 	(wire
 		(pts
@@ -5887,7 +5917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 36.83 0)
 			(effects
 				(font
@@ -5985,6 +6015,74 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "HC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 54.61 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05168e7a-dbd6-4112-8f46-cc3162e88bcc")
+		(property "Reference" "R22"
+			(at 58.674 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 58.674 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.594 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "457bf927-5b17-4985-915f-fd2678371e9f")
+		)
+		(pin "1"
+			(uuid "edbfa65c-ecc8-4f65-9dc8-1cbe6b345ee6")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6159,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -6564,7 +6662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 41.91 0)
 			(effects
 				(font
@@ -6986,7 +7084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 127.3048 54.61 0)
 			(effects
 				(font
@@ -7090,71 +7188,6 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35c090ff-49a9-4c9e-bd3d-906f84a760ec")
-		(property "Reference" "J12"
-			(at 151.765 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24AWG"
-			(at 151.765 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ce49ce8-7e03-4a2a-b99f-64d0c817d637")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7325,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 36.83 0)
 			(effects
 				(font
@@ -7752,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -8354,6 +8387,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 22.86 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52f38780-bd93-4234-b15b-d4c908c4aa0a")
+		(property "Reference" "R21"
+			(at 26.924 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 26.924 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 21.844 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 22.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1908f45-a295-40be-97f6-ce671d6a3be3")
+		)
+		(pin "1"
+			(uuid "60b20c38-22a6-49bb-bcff-aaad93436880")
+		)
+		(instances
+			(project "agv_controller"
+				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 190.5 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8846,7 +8947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 52.07 0)
 			(effects
 				(font
@@ -9048,7 +9149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -9554,71 +9655,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 142.24 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81e1d479-a522-4a8c-ab6d-ffc42c128323")
-		(property "Reference" "J10"
-			(at 141.605 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24AWG"
-			(at 141.605 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f41d2a46-e4f9-4c93-acb3-df022a04541a")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 54.61 140.97 0)
 		(mirror y)
@@ -9713,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -10162,71 +10198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d731d57-b440-4305-ad57-d585700afff6")
-		(property "Reference" "J11"
-			(at 146.685 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24AWG"
-			(at 146.685 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50b2b505-0540-4769-9352-476f0318348f")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 68.58 44.45 90)
 		(unit 1)
@@ -10253,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 39.37 0)
 			(effects
 				(font
@@ -10522,7 +10493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -10840,70 +10811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 54.61 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a40870db-dba4-49fb-b3fc-c2f7ead15d07")
-		(property "Reference" "EN2"
-			(at 54.356 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22AWG"
-			(at 54.356 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 54.61 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 54.61 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ac6b281-0dc1-433a-897c-2b5d9434eaa7")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "EN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:L7805")
 		(at 59.69 85.09 0)
 		(unit 1)
@@ -11037,70 +10944,6 @@
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 22.86 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa9bbcd1-2caa-4a6a-929e-dfdcf255b003")
-		(property "Reference" "EN1"
-			(at 22.606 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22AWG"
-			(at 22.606 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0849a60-76a6-4138-ba20-4937d6a09740")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "EN1")
 					(unit 1)
 				)
 			)
@@ -11281,7 +11124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 52.07 0)
 			(effects
 				(font
@@ -11412,7 +11255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 49.53 0)
 			(effects
 				(font
@@ -11628,7 +11471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 68.58 57.15 0)
 			(effects
 				(font
@@ -12100,7 +11943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 49.53 0)
 			(effects
 				(font
@@ -12233,7 +12076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -12594,7 +12437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -13141,7 +12984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 57.15 0)
 			(effects
 				(font
@@ -13413,7 +13256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 46.99 0)
 			(effects
 				(font
@@ -13481,7 +13324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -13782,73 +13625,6 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 38.1 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f314c1a0-1cbb-487d-a2b6-3820580d3b48")
-		(property "Reference" "J2"
-			(at 39.37 79.3749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "POWER_HOLE"
-			(at 39.37 81.9149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eb12d6a-9038-427b-9772-c1f73aae301c")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J2")
 					(unit 1)
 				)
 			)
