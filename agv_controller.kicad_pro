@@ -496,7 +496,8 @@
     "net_colors": {
       "/INV_A": "rgb(90, 233, 37)",
       "/INV_B": "rgb(255, 92, 32)",
-      "/INV_C": "rgb(212, 55, 255)"
+      "/INV_C": "rgb(212, 55, 255)",
+      "GND": "rgb(117, 155, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []

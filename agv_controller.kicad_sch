@@ -418,113 +418,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2988,6 +2881,12 @@
 		(uuid "0276ae30-28a1-44e3-9d45-d8505070602b")
 	)
 	(junction
+		(at 40.64 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0747b219-09c3-40a9-b4e5-1fb701d35903")
+	)
+	(junction
 		(at 158.75 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3377,6 +3276,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051905c5-fc1a-486d-a640-0aa7982c1207")
+	)
+	(wire
+		(pts
 			(xy 30.48 29.21) (xy 34.29 29.21)
 		)
 		(stroke
@@ -3427,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 157.48) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1a5e2c-9d12-4b88-9237-546669513478")
+	)
+	(wire
+		(pts
 			(xy 171.45 82.55) (xy 175.26 82.55)
 		)
 		(stroke
@@ -3467,16 +3386,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 46.99) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d6e0d2-46c7-4eec-a552-9b120e312796")
-	)
-	(wire
-		(pts
 			(xy 100.33 49.53) (xy 111.76 49.53)
 		)
 		(stroke
@@ -3514,6 +3423,16 @@
 			(type default)
 		)
 		(uuid "147f149a-9e2d-4542-bdae-4196e0398826")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1612847c-889b-411d-a35b-45a371f21ad4")
 	)
 	(wire
 		(pts
@@ -3737,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff871f5-d07a-4761-b1bd-22783db6d8bc")
+	)
+	(wire
+		(pts
 			(xy 102.87 64.77) (xy 102.87 62.23)
 		)
 		(stroke
@@ -3744,6 +3673,16 @@
 			(type default)
 		)
 		(uuid "311ca9d8-f682-41c2-9aee-ec4e66abc39f")
+	)
+	(wire
+		(pts
+			(xy 68.58 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325823de-0a69-41bc-8216-a0264753de6d")
 	)
 	(wire
 		(pts
@@ -3774,16 +3713,6 @@
 			(type default)
 		)
 		(uuid "3639df50-365f-43bc-807d-a1990cd263dd")
-	)
-	(wire
-		(pts
-			(xy 68.58 49.53) (xy 80.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36dbd93f-085b-494b-be65-cd432be5625a")
 	)
 	(wire
 		(pts
@@ -3854,16 +3783,6 @@
 			(type default)
 		)
 		(uuid "3eeef5e9-ff78-475b-bbe4-0963754fa6e6")
-	)
-	(wire
-		(pts
-			(xy 116.84 91.44) (xy 137.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f91d953-5761-4e45-a26f-8b0f46a93596")
 	)
 	(wire
 		(pts
@@ -3964,16 +3883,6 @@
 			(type default)
 		)
 		(uuid "4a11c307-1ce9-4607-b751-9d65ae1b6b47")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 147.32 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af8db30-3b35-424f-b792-e1cf43bf2f6d")
 	)
 	(wire
 		(pts
@@ -4267,7 +4176,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 157.48) (xy 54.61 157.48)
+			(xy 39.37 157.48) (xy 40.64 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4427,16 +4336,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 41.91) (xy 80.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ede1c71-47cc-421f-8f00-5b98054c89e5")
-	)
-	(wire
-		(pts
 			(xy 49.53 36.83) (xy 80.01 36.83)
 		)
 		(stroke
@@ -4527,16 +4426,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 142.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907f4656-55fe-48bd-a109-eaeccc9b8c0f")
-	)
-	(wire
-		(pts
 			(xy 100.33 54.61) (xy 128.27 54.61)
 		)
 		(stroke
@@ -4574,6 +4463,16 @@
 			(type default)
 		)
 		(uuid "95011285-3a07-4cc2-bcd0-e004fd1cca4d")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9595af85-1348-478a-80a7-78cb1d6713ba")
 	)
 	(wire
 		(pts
@@ -4867,6 +4766,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda3d021-4216-4200-9a49-39c1e5851f40")
+	)
+	(wire
+		(pts
 			(xy 100.33 64.77) (xy 102.87 64.77)
 		)
 		(stroke
@@ -4877,6 +4786,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 62.23) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c54163-0bb1-4a93-bb40-a1eb47f689ba")
+	)
+	(wire
+		(pts
 			(xy 68.58 54.61) (xy 80.01 54.61)
 		)
 		(stroke
@@ -4884,16 +4803,6 @@
 			(type default)
 		)
 		(uuid "c6c935e0-da82-4a1f-aed2-f1217376efc0")
-	)
-	(wire
-		(pts
-			(xy 68.58 62.23) (xy 80.01 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d0af7b-9c0f-4bdc-b023-18ca3a0e49df")
 	)
 	(wire
 		(pts
@@ -4924,16 +4833,6 @@
 			(type default)
 		)
 		(uuid "c9448601-9845-4a71-9b2c-26281fead7ea")
-	)
-	(wire
-		(pts
-			(xy 68.58 57.15) (xy 80.01 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca8d6da8-6f55-452c-82d5-c90ecab6e8df")
 	)
 	(wire
 		(pts
@@ -5227,7 +5126,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 157.48) (xy 39.37 161.29)
+			(xy 40.64 157.48) (xy 40.64 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5285,8 +5184,18 @@
 		)
 		(uuid "fe9a673d-8c3b-4e6e-b84b-ad2ea4d99e36")
 	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc96ec4-1e72-4483-a51b-f385aaddca08")
+	)
 	(label "INV_B"
-		(at 109.22 39.37 180)
+		(at 111.76 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5316,12 +5225,12 @@
 		(uuid "0cffd473-aa36-44c5-9b6b-1c6ad361163a")
 	)
 	(label "HC"
-		(at 116.84 96.52 0)
+		(at 147.32 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0dfad41a-4012-478e-a33f-e6d1617e660e")
 	)
@@ -5406,7 +5315,7 @@
 		(uuid "44f62155-ac7b-4769-98c1-ed29835b1fc6")
 	)
 	(label "DIR"
-		(at 69.85 44.45 0)
+		(at 68.58 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5325,7 @@
 		(uuid "47129c2b-4968-4913-806c-46c413d36d0c")
 	)
 	(label "HS_A"
-		(at 109.22 46.99 180)
+		(at 111.76 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5426,17 +5335,17 @@
 		(uuid "565b4964-ec38-452b-813b-c1bb41055991")
 	)
 	(label "HA"
-		(at 116.84 91.44 0)
+		(at 137.16 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "611dfea9-86ca-44c4-942b-c8993266c9fc")
 	)
 	(label "HA"
-		(at 69.85 49.53 0)
+		(at 68.58 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5466,7 +5375,7 @@
 		(uuid "765bd46c-b51a-4811-a020-1b792ab05e59")
 	)
 	(label "EN"
-		(at 69.85 41.91 0)
+		(at 68.58 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5486,7 +5395,7 @@
 		(uuid "7877fd13-cfbe-4b40-a35e-17779bfdff13")
 	)
 	(label "HB"
-		(at 69.85 52.07 0)
+		(at 68.58 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5506,7 +5415,7 @@
 		(uuid "79f89ffa-ef37-46b3-b606-1fc72c71a2f9")
 	)
 	(label "INV_A"
-		(at 109.22 49.53 180)
+		(at 111.76 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5516,7 +5425,7 @@
 		(uuid "7e584c7c-577c-42a6-837c-f7cf05ccbe7b")
 	)
 	(label "LS_A"
-		(at 109.22 44.45 180)
+		(at 111.76 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5536,7 +5445,7 @@
 		(uuid "82bf211d-b9de-427c-849f-1a6dd8f96006")
 	)
 	(label "HS_B"
-		(at 109.22 36.83 180)
+		(at 111.76 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5576,7 +5485,7 @@
 		(uuid "8e5f0fd8-40b9-476e-9bc5-c0837d500ed6")
 	)
 	(label "LS_B"
-		(at 109.22 34.29 180)
+		(at 111.76 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,17 +5495,17 @@
 		(uuid "92839462-6581-4c12-86f5-c48a63393f07")
 	)
 	(label "HB"
-		(at 116.84 93.98 0)
+		(at 142.24 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9318559f-0121-4904-978f-1187d34a14e9")
 	)
 	(label "CB"
-		(at 109.22 41.91 180)
+		(at 111.76 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5606,7 +5515,7 @@
 		(uuid "93378b45-0225-4661-8c7c-6c094a2dabb8")
 	)
 	(label "HC"
-		(at 69.85 54.61 0)
+		(at 68.58 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5636,7 +5545,7 @@
 		(uuid "95e9031e-b09b-46ec-882d-465709af6e58")
 	)
 	(label "~{BRAKE}"
-		(at 69.85 46.99 0)
+		(at 68.58 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5666,7 +5575,7 @@
 		(uuid "a8784053-c606-4b4a-b0df-16a06cc97e2c")
 	)
 	(label "CC"
-		(at 109.22 31.75 180)
+		(at 111.76 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5676,7 +5585,7 @@
 		(uuid "aae97b26-b3d3-4a2a-b7cb-a2a5134247b6")
 	)
 	(label "CA"
-		(at 109.22 52.07 180)
+		(at 111.76 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5716,7 +5625,7 @@
 		(uuid "c29d5f1d-1109-45fa-ab1b-0e6b071a3e06")
 	)
 	(label "LS_C"
-		(at 69.85 59.69 0)
+		(at 68.58 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5726,7 +5635,7 @@
 		(uuid "c70be33f-2fcf-486b-81b0-8bfafa0330af")
 	)
 	(label "INV_C"
-		(at 109.22 29.21 180)
+		(at 111.76 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5736,7 +5645,7 @@
 		(uuid "cc78c5cd-f5e4-4ece-811f-c19b94d6eca8")
 	)
 	(label "HS_C"
-		(at 69.85 62.23 0)
+		(at 68.58 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5746,7 +5655,7 @@
 		(uuid "cfffeb93-8098-45de-99d7-b94bd984c613")
 	)
 	(label "LSS"
-		(at 69.85 57.15 0)
+		(at 68.58 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5843,72 +5752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "028a863f-9fb3-4f96-ade7-b7fa9d72e92f")
-		(property "Reference" "TP1"
-			(at 61.722 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 40.6401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c4624d8-f311-4093-9a38-bfcf647aa07f")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 111.76 96.52 0)
 		(unit 1)
@@ -5917,7 +5760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "041a486a-6117-4d04-ab91-43917a34fe26")
-		(property "Reference" "HC1"
+		(property "Reference" "J13"
 			(at 100.584 96.266 0)
 			(effects
 				(font
@@ -5966,7 +5809,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "HC1")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -6181,74 +6024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0aa8b9ff-e4ee-4dc5-b2d2-555d78926f55")
-		(property "Reference" "TP12"
-			(at 116.84 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "406e0f9a-b98c-4435-8e00-5954d40c7ed2")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 64.77 127 180)
 		(unit 1)
@@ -6389,7 +6164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 161.29 0)
+		(at 40.64 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6398,7 +6173,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eb2dd61-efcd-461b-9150-958cf61091ec")
 		(property "Reference" "#PWR04"
-			(at 39.37 167.64 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 166.37 0)
+			(at 40.64 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 161.29 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 161.29 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +6208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 161.29 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ac56f8-ac1a-4b8a-aac9-648b8efde567")
-		(property "Reference" "J21"
+		(property "Reference" "J33"
 			(at 269.24 86.9949 90)
 			(effects
 				(font
@@ -6581,73 +6356,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15439e3a-f6bb-4aa3-a098-d3641869a0f2")
-		(property "Reference" "TP3"
-			(at 61.722 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 45.7201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60166789-7d7f-43e4-8c45-d506353131f8")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP3")
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -6811,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2141bf8e-e5b5-4e6f-89ec-fb133de3df0a")
-		(property "Reference" "GND2"
+		(property "Reference" "J6"
 			(at 74.93 107.3149 90)
 			(effects
 				(font
@@ -6862,7 +6571,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "GND2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7018,7 +6727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a1b5fd-aa69-4ef0-96f8-47288c662fc7")
-		(property "Reference" "J14"
+		(property "Reference" "J26"
 			(at 205.74 76.8349 90)
 			(effects
 				(font
@@ -7069,7 +6778,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J14")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -7212,74 +6921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37f12a25-c417-4c6b-9c8e-f6a09ba5853a")
-		(property "Reference" "TP11"
-			(at 116.84 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dc48d59-d106-4bf8-b51f-53e1c6df9b3c")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 105.41 0)
 		(unit 1)
@@ -7354,7 +6995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ab30e91-0aa1-46f8-b7da-35d3d73c7de3")
-		(property "Reference" "LSS1"
+		(property "Reference" "J14"
 			(at 100.584 98.806 0)
 			(effects
 				(font
@@ -7403,7 +7044,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "LSS1")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7502,7 +7143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a5706e-b41e-4f28-9bac-ef71978629d0")
-		(property "Reference" "VDD1"
+		(property "Reference" "J7"
 			(at 83.82 79.3749 90)
 			(effects
 				(font
@@ -7553,7 +7194,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "VDD1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7633,74 +7274,6 @@
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a3f1824-f3cd-4bc5-8309-b929fc3214a9")
-		(property "Reference" "TP14"
-			(at 116.84 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ba4be3a-c5cb-46e6-b71c-0fd9407cc78e")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -7864,7 +7437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c72d8fc-cf89-452b-a16f-7b6b2cb9d158")
-		(property "Reference" "J17"
+		(property "Reference" "J29"
 			(at 224.79 88.2649 90)
 			(effects
 				(font
@@ -7915,7 +7488,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J17")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -8681,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650b0fa1-405f-4cc1-8b42-f564bb62093a")
-		(property "Reference" "J11"
+		(property "Reference" "J23"
 			(at 170.815 99.06 0)
 			(effects
 				(font
@@ -8730,7 +8303,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J11")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -8745,7 +8318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65edf4e2-0529-49f3-b7e2-733492fcc341")
-		(property "Reference" "DIR1"
+		(property "Reference" "J9"
 			(at 100.584 86.106 0)
 			(effects
 				(font
@@ -8794,75 +8367,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "DIR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 46.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6987cf14-fdb7-4dab-95a4-8ba4cb6fe67b")
-		(property "Reference" "TP17"
-			(at 116.84 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c327eff-cdd3-4d6e-8c3c-f5de280b1a6c")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP17")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -9005,72 +8510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72df3de8-4928-4998-854f-ea471703f9c8")
-		(property "Reference" "TP5"
-			(at 61.722 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 50.8001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d731b745-9650-4ae0-a6fc-7b79530143ad")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 158.75 99.06 180)
 		(unit 1)
@@ -9080,7 +8519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "758ac0e4-c262-4f08-bedf-97062f6683eb")
-		(property "Reference" "J9"
+		(property "Reference" "J21"
 			(at 158.115 93.98 0)
 			(effects
 				(font
@@ -9129,7 +8568,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J9")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -9145,7 +8584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77a67cad-7fae-4835-9c4c-87137a2677e2")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 45.72 23.4949 90)
 			(effects
 				(font
@@ -9196,7 +8635,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9417,7 +8856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "800fd1c7-d9bb-49fb-a1b4-4cce07918523")
-		(property "Reference" "EN1"
+		(property "Reference" "J8"
 			(at 100.584 83.566 0)
 			(effects
 				(font
@@ -9466,7 +8905,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "EN1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9481,7 +8920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "807875cd-b376-47fd-9af4-700fd9494bf7")
-		(property "Reference" "HA1"
+		(property "Reference" "J11"
 			(at 100.584 91.186 0)
 			(effects
 				(font
@@ -9530,7 +8969,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "HA1")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9605,72 +9044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8273f994-3a0f-4991-bf20-032c3958e50a")
-		(property "Reference" "TP8"
-			(at 61.722 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 58.4201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2327bf78-4a98-4ea6-b592-937ea3367c69")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 137.16 88.9 180)
 		(unit 1)
@@ -9680,7 +9053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "830b3d20-b2a2-429a-beb5-f9df7ecfdc7c")
-		(property "Reference" "J8"
+		(property "Reference" "J20"
 			(at 136.525 83.82 0)
 			(effects
 				(font
@@ -9729,7 +9102,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J8")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -9824,7 +9197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a82d99c-009d-4037-9165-201c532026e8")
-		(property "Reference" "J18"
+		(property "Reference" "J30"
 			(at 245.11 76.8349 90)
 			(effects
 				(font
@@ -9875,7 +9248,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J18")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -9891,7 +9264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9ecf22-472c-4e36-8e86-cdef28362430")
-		(property "Reference" "J7"
+		(property "Reference" "J19"
 			(at 131.445 81.28 0)
 			(effects
 				(font
@@ -9940,7 +9313,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J7")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -10007,72 +9380,6 @@
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e722fb3-4e0f-4593-bb4f-5a822543865d")
-		(property "Reference" "TP2"
-			(at 61.722 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 43.1801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e9481d3-0d60-4f43-8e88-1daddff9143a")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10224,7 +9531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c5d61e-bc7f-4603-a635-6d5a128fa805")
-		(property "Reference" "GND1"
+		(property "Reference" "J2"
 			(at 40.64 107.3149 90)
 			(effects
 				(font
@@ -10275,73 +9582,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96b50c9a-3b7f-497c-beb1-082f0e9da70b")
-		(property "Reference" "TP4"
-			(at 61.722 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 48.2601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37399714-81ed-4671-8656-0cf9bb595957")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10357,7 +9598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "977e6e01-064f-4f70-94ad-57ee88592d50")
-		(property "Reference" "J19"
+		(property "Reference" "J31"
 			(at 245.11 88.2649 90)
 			(effects
 				(font
@@ -10408,7 +9649,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J19")
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -10424,7 +9665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0c25ea-6ff0-404d-bd6f-85682dfbbc87")
-		(property "Reference" "J5"
+		(property "Reference" "J17"
 			(at 114.935 115.57 0)
 			(effects
 				(font
@@ -10485,7 +9726,7 @@
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J5")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -10913,72 +10154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac7fd79d-1c31-4e1e-800a-d119be2ec218")
-		(property "Reference" "TP7"
-			(at 61.722 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 55.8801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3294dcaa-bdac-473c-bcb3-cf881685ca01")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 127 83.82 180)
 		(unit 1)
@@ -10988,7 +10163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b255011f-6aa3-4fa4-910d-00a798bbcb32")
-		(property "Reference" "J6"
+		(property "Reference" "J18"
 			(at 126.365 78.74 0)
 			(effects
 				(font
@@ -11037,73 +10212,7 @@
 		(instances
 			(project ""
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2f5fe8a-c6b9-4bf7-9b6e-b502d3c005cc")
-		(property "Reference" "TP6"
-			(at 61.722 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 53.3401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66724c5b-3d59-4d23-a066-29982fb8fae7")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP6")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -11119,7 +10228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73e7d54-6b39-41d4-87f0-23353d859edb")
-		(property "Reference" "J20"
+		(property "Reference" "J32"
 			(at 269.24 75.5649 90)
 			(effects
 				(font
@@ -11170,7 +10279,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J20")
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -11260,72 +10369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba158979-df06-4348-acad-e5e1c6b7e620")
-		(property "Reference" "TP9"
-			(at 61.722 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 63.5 60.9601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 68.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdc6e8b5-44ef-4358-ae78-7cf99d8e65d7")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 191.77 64.77 0)
 		(unit 1)
@@ -11401,7 +10444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5f2a38-b16a-4feb-98ce-b3890d6b25b5")
-		(property "Reference" "J15"
+		(property "Reference" "J27"
 			(at 205.74 88.2649 90)
 			(effects
 				(font
@@ -11452,7 +10495,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J15")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -11468,7 +10511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed65496-3062-47a6-ab06-585399732617")
-		(property "Reference" "J16"
+		(property "Reference" "J28"
 			(at 224.79 76.8349 90)
 			(effects
 				(font
@@ -11519,7 +10562,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J16")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -11605,7 +10648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2cbe9d6-9c49-44ec-8ece-69cdc2b0fa0d")
-		(property "Reference" "J12"
+		(property "Reference" "J24"
 			(at 176.53 75.5649 90)
 			(effects
 				(font
@@ -11656,7 +10699,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J12")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -11800,74 +10843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb9895e7-c25c-46f9-8b59-0896f78e3d32")
-		(property "Reference" "TP16"
-			(at 116.84 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df351d7c-ec09-401e-affc-983d7b5138bf")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 165.1 101.6 180)
 		(unit 1)
@@ -11877,7 +10852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5149ae-70f2-45c7-9f81-650130a6ea32")
-		(property "Reference" "J10"
+		(property "Reference" "J22"
 			(at 164.465 96.52 0)
 			(effects
 				(font
@@ -11926,75 +10901,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf99e9af-23a3-4f6d-962b-100f563ad192")
-		(property "Reference" "TP13"
-			(at 116.84 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77df12b7-ae8e-4499-b55b-02460b3ec818")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP13")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -12009,7 +10916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d119078f-bbc4-421c-923c-45da1f0884e5")
-		(property "Reference" "FAULT1"
+		(property "Reference" "J15"
 			(at 100.584 101.346 0)
 			(effects
 				(font
@@ -12058,7 +10965,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "FAULT1")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -12074,7 +10981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d20efc43-6bfe-43d7-9db1-5f3df8dbf910")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 55.88 128.9049 90)
 			(effects
 				(font
@@ -12125,7 +11032,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12288,74 +11195,6 @@
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d61dba9b-fd42-4c25-b0b4-23ba36a7284b")
-		(property "Reference" "TP18"
-			(at 116.84 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7723d545-627e-45ad-9516-f31061a804cb")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -12651,7 +11490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d95e2b8e-58d3-4627-9b6d-e08c976f04cf")
-		(property "Reference" "nBRAKE1"
+		(property "Reference" "J10"
 			(at 100.584 88.646 0)
 			(effects
 				(font
@@ -12700,7 +11539,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "nBRAKE1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12783,7 +11622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ddeb90-4622-4896-9f5d-8ef05fc22acc")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 71.12 79.3749 90)
 			(effects
 				(font
@@ -12834,75 +11673,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd801b50-ef42-443c-9356-ea8715e00e0e")
-		(property "Reference" "TP19"
-			(at 116.84 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bf4e831-12c4-432d-a71e-d09dc43000a2")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP19")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12988,7 +11759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1afe25f-ddf2-4c41-94c0-f2807b08fd67")
-		(property "Reference" "J13"
+		(property "Reference" "J25"
 			(at 176.53 86.9949 90)
 			(effects
 				(font
@@ -13039,143 +11810,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4733881-81ef-416d-8cde-57facc42ae48")
-		(property "Reference" "TP15"
-			(at 116.84 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dd10e77-6a1d-4410-b429-b8ece1917748")
-		)
-		(instances
-			(project "agv_controller"
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e662cf8c-d7a3-47a0-b0a1-b10a860a5960")
-		(property "Reference" "TP10"
-			(at 116.84 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 111.76 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17ca1fbf-6e50-4a9c-ac2c-dbb4ca6970d8")
-		)
-		(instances
-			(project ""
-				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "TP10")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -13327,7 +11962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1329571-6c19-4e50-8867-db5592d2b915")
-		(property "Reference" "SPEED1"
+		(property "Reference" "J16"
 			(at 100.711 103.378 0)
 			(effects
 				(font
@@ -13376,7 +12011,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "SPEED1")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -13964,7 +12599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf41fbd-5807-4b98-b9a1-4c5d38f9f81a")
-		(property "Reference" "HB1"
+		(property "Reference" "J12"
 			(at 100.584 93.726 0)
 			(effects
 				(font
@@ -14013,7 +12648,7 @@
 		(instances
 			(project "agv_controller"
 				(path "/c32501d3-999c-4acf-9657-332312cdd6ec"
-					(reference "HB1")
+					(reference "J12")
 					(unit 1)
 				)
 			)

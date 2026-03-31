@@ -104,31 +104,31 @@
 	(net 23 "/HB")
 	(net 24 "/HC")
 	(net 25 "Net-(J1-Pin_1)")
-	(net 26 "Net-(J4-Pin_1)")
-	(net 27 "/~{BRAKE}")
-	(net 28 "/SPEED")
-	(net 29 "Net-(Q2-G)")
-	(net 30 "Net-(Q3-G)")
-	(net 31 "Net-(Q4-G)")
-	(net 32 "Net-(Q5-G)")
-	(net 33 "Net-(Q6-G)")
-	(net 34 "Net-(Q7-G)")
-	(net 35 "Net-(U2-TDEAD)")
-	(net 36 "/HS_A")
-	(net 37 "/LS_A")
-	(net 38 "/HS_B")
-	(net 39 "/LS_B")
-	(net 40 "/HS_C")
-	(net 41 "/LS_C")
-	(net 42 "Net-(Q1A-B1)")
-	(net 43 "Net-(Q1B-B2)")
+	(net 26 "/~{BRAKE}")
+	(net 27 "/SPEED")
+	(net 28 "Net-(Q2-G)")
+	(net 29 "Net-(Q3-G)")
+	(net 30 "Net-(Q4-G)")
+	(net 31 "Net-(Q5-G)")
+	(net 32 "Net-(Q6-G)")
+	(net 33 "Net-(Q7-G)")
+	(net 34 "Net-(U2-TDEAD)")
+	(net 35 "/HS_A")
+	(net 36 "/LS_A")
+	(net 37 "/HS_B")
+	(net 38 "/LS_B")
+	(net 39 "/HS_C")
+	(net 40 "/LS_C")
+	(net 41 "Net-(Q1A-B1)")
+	(net 42 "Net-(Q1B-B2)")
+	(net 43 "Net-(J4-Pin_1)")
 	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "0a9af811-919a-4a2d-811e-8299b75594d5")
 		(at 113.964323 91.948)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 2.5 -6.25 0)
 			(layer "F.SilkS")
 			(uuid "7ba75df0-959f-4cee-b48d-0bdd84e1bb8a")
@@ -2402,7 +2402,7 @@
 		(at 95.504 92.456)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J13"
+		(property "Reference" "J21"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "00c185ee-bc00-4c23-b4ae-3ebfcb3ea653")
@@ -2546,7 +2546,7 @@
 		(at 103.632 45.021 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "1653cabc-a425-4560-b831-6d6262b53e05")
@@ -2722,7 +2722,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 35 "Net-(U2-TDEAD)")
+			(net 34 "Net-(U2-TDEAD)")
 			(pintype "passive")
 			(uuid "906bce9b-ba27-4ffa-a712-faff82f2c352")
 		)
@@ -2745,7 +2745,7 @@
 		(at 86.043 64.008 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "3910145c-20f4-4b88-9f26-9e3cff63f88e")
@@ -3266,7 +3266,7 @@
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 29 "Net-(Q2-G)")
+			(net 28 "Net-(Q2-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_paste_margin -0.05)
@@ -3300,7 +3300,7 @@
 		(at 70.104 63.856 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d773ab12-def6-4eff-91ee-0ce033ea56e6")
@@ -3467,7 +3467,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 37 "/LS_A")
+			(net 36 "/LS_A")
 			(pintype "passive")
 			(uuid "a2653955-b5c2-46a6-8955-b7c3fb24c03a")
 		)
@@ -3476,7 +3476,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(Q3-G)")
+			(net 29 "Net-(Q3-G)")
 			(pintype "passive")
 			(uuid "ef79193c-ba90-4117-8138-df359010b1af")
 		)
@@ -3499,7 +3499,7 @@
 		(at 57.912 50.101 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "cf3b0cac-b887-44ac-ae39-7c6b4695cd09")
@@ -3666,7 +3666,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 36 "/HS_A")
+			(net 35 "/HS_A")
 			(pintype "passive")
 			(uuid "c4e8b606-ac5b-434f-8aa0-48fb2a137264")
 		)
@@ -3675,7 +3675,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 29 "Net-(Q2-G)")
+			(net 28 "Net-(Q2-G)")
 			(pintype "passive")
 			(uuid "8e5c872f-37cc-45e8-95ed-1c9f39d19833")
 		)
@@ -4254,7 +4254,7 @@
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(Q3-G)")
+			(net 29 "Net-(Q3-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_paste_margin -0.05)
@@ -4288,7 +4288,7 @@
 		(at 74.168 32.512 180)
 		(descr "JST EH series connector, B5B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
-		(property "Reference" "J6"
+		(property "Reference" "J17"
 			(at 5 -2.8 0)
 			(layer "F.SilkS")
 			(uuid "39c0ba6e-a52d-4b6b-93ca-4c9ae217dc6c")
@@ -4675,7 +4675,7 @@
 		(at 116.332 28.956)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J15"
+		(property "Reference" "J23"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "3cb73b1b-c34a-4b53-a149-2f0ab23a6480")
@@ -4795,7 +4795,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.116279)
-			(net 28 "/SPEED")
+			(net 27 "/SPEED")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "3843ab0a-6a01-4dda-985c-8922e5bdf3c3")
@@ -5141,7 +5141,7 @@
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 33 "Net-(Q6-G)")
+			(net 32 "Net-(Q6-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_paste_margin -0.05)
@@ -5175,8 +5175,8 @@
 		(at 54.356 80.01)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J20"
-			(at 0 -4.2 0)
+		(property "Reference" "J28"
+			(at 0 -4.826 0)
 			(layer "F.SilkS")
 			(uuid "f22b5063-2b5e-4b8c-9884-9a91d1501912")
 			(effects
@@ -5319,7 +5319,7 @@
 		(at 71.12 70.334 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "bd095779-7e4b-46d1-8981-a79a0fa32f82")
@@ -5495,7 +5495,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(Q3-G)")
+			(net 29 "Net-(Q3-G)")
 			(pintype "passive")
 			(uuid "3962cf7f-9d16-4b06-97f8-800acbc16dfa")
 		)
@@ -5518,7 +5518,7 @@
 		(at 38.62 22.71 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "17b85da5-6005-4be0-b99a-8db4509374db")
@@ -5918,7 +5918,7 @@
 			(size 0.65 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(Q1A-B1)")
+			(net 41 "Net-(Q1A-B1)")
 			(pinfunction "B1")
 			(pintype "input")
 			(uuid "838817af-a191-4a1f-82ad-f8661c33a6b7")
@@ -5948,7 +5948,7 @@
 			(size 0.65 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 43 "Net-(Q1B-B2)")
+			(net 42 "Net-(Q1B-B2)")
 			(pinfunction "B2")
 			(pintype "input")
 			(uuid "87f68f1c-2f14-4ab5-9f86-3fe79d76c1cb")
@@ -6181,7 +6181,7 @@
 		(at 54.356 92.71)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J21"
+		(property "Reference" "J29"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "cb2cf08b-0dde-497f-994f-2f2b44f443e0")
@@ -6325,7 +6325,7 @@
 		(at 46.697 50.101 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "54c97ca9-b6b2-42d2-acf4-96d2d28312d4")
@@ -6492,7 +6492,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 38 "/HS_B")
+			(net 37 "/HS_B")
 			(pintype "passive")
 			(uuid "26c733fa-533b-4936-9ab1-e82d8d14ab56")
 		)
@@ -6501,7 +6501,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(Q4-G)")
+			(net 30 "Net-(Q4-G)")
 			(pintype "passive")
 			(uuid "534f9806-b12e-4f96-b4a6-f683554dd537")
 		)
@@ -6524,7 +6524,7 @@
 		(at 85.993 59.436 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "4856a072-6e76-477a-b424-4308ae8ad7ec")
@@ -6723,7 +6723,7 @@
 		(at 66.04 64.516)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "9d22a254-6738-425c-bfff-86a6fc395ad9")
@@ -6899,7 +6899,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 29 "Net-(Q2-G)")
+			(net 28 "Net-(Q2-G)")
 			(pintype "passive")
 			(uuid "7ae6f9b0-ec24-43d8-a75f-f840c8a64371")
 		)
@@ -7244,7 +7244,7 @@
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(Q5-G)")
+			(net 31 "Net-(Q5-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_paste_margin -0.05)
@@ -7278,7 +7278,7 @@
 		(at 98.044 28.956)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J7"
+		(property "Reference" "J18"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "2fa241d2-5c85-464c-9348-bd471c89d2ca")
@@ -7422,7 +7422,7 @@
 		(at 97.727 40.513)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "3a1546b3-7bdc-48ff-b02d-4b79f0e0e4bc")
@@ -7761,7 +7761,7 @@
 		(at 104.14 28.956)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J14"
+		(property "Reference" "J22"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "4710633e-fc1e-4faf-b52a-b56be42bceb1")
@@ -8049,8 +8049,8 @@
 		(at 65.532 80.01)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J18"
-			(at 0 -4.2 0)
+		(property "Reference" "J26"
+			(at -0.292 -5.014 0)
 			(layer "F.SilkS")
 			(uuid "d6a09ebe-401f-416e-9871-1e5e86665ab9")
 			(effects
@@ -8858,7 +8858,7 @@
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(Q4-G)")
+			(net 30 "Net-(Q4-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_paste_margin -0.05)
@@ -8892,8 +8892,8 @@
 		(at 42.672 80.01)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J23"
-			(at 0 -4.2 0)
+		(property "Reference" "J31"
+			(at 0 -4.826 0)
 			(layer "F.SilkS")
 			(uuid "01637a69-ab3f-4846-aaf9-0ec3b294c445")
 			(effects
@@ -9036,7 +9036,7 @@
 		(at 38.608 39.815 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R21"
+		(property "Reference" "R2"
 			(at 0 1.651 90)
 			(layer "F.SilkS")
 			(uuid "99bb984b-82f9-4b40-905e-75c9ac7a345a")
@@ -9203,7 +9203,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(Q1A-B1)")
+			(net 41 "Net-(Q1A-B1)")
 			(pintype "passive")
 			(uuid "8022c4a5-dfeb-4483-9d05-3900b1e8709c")
 		)
@@ -9668,7 +9668,7 @@
 		(at 65.532 92.71)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J19"
+		(property "Reference" "J27"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "8e91b21c-dae9-4b39-bad3-ccb0351dfa00")
@@ -9812,7 +9812,7 @@
 		(at 69.088 38.608 90)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "HB1"
+		(property "Reference" "J12"
 			(at 0 -2.28 90)
 			(layer "F.SilkS")
 			(uuid "400a6c7c-f489-43c7-8c88-45e59ab12484")
@@ -10190,7 +10190,7 @@
 		(at 110.236 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "VDD1"
+		(property "Reference" "J7"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "68538944-a609-40d9-a4b5-9cb2b7fee5c9")
@@ -10334,7 +10334,7 @@
 		(at 48.768 63.856 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "cd6ae1f6-1f6f-46a5-a813-688abafb1356")
@@ -10501,7 +10501,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 41 "/LS_C")
+			(net 40 "/LS_C")
 			(pintype "passive")
 			(uuid "1ab76247-4761-42bc-9ad9-23e49f4c6dd7")
 		)
@@ -10510,7 +10510,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(Q7-G)")
+			(net 33 "Net-(Q7-G)")
 			(pintype "passive")
 			(uuid "8ee5cba7-aa4b-45a5-9a62-0f71d79e0e13")
 		)
@@ -10533,7 +10533,7 @@
 		(at 77.724 79.756)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J17"
+		(property "Reference" "J25"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "bc704938-930e-4c82-ab09-600020a88a4f")
@@ -10677,7 +10677,7 @@
 		(at 38.62 26.924 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "9ad8e149-1a4e-4cac-9441-beb6c0d62000")
@@ -10876,7 +10876,7 @@
 		(at 59.944 70.46 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "a3a5b204-024c-4769-93c3-df9c8b2b3fbd")
@@ -11052,7 +11052,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(Q5-G)")
+			(net 31 "Net-(Q5-G)")
 			(pintype "passive")
 			(uuid "105594bb-3327-4152-8ae3-1bd19a680f88")
 		)
@@ -11075,7 +11075,7 @@
 		(at 76.2 38.608 90)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "HA1"
+		(property "Reference" "J11"
 			(at 0 -2.28 90)
 			(layer "F.SilkS")
 			(uuid "518a83fa-df23-4537-aa5d-379914d7fb73")
@@ -11219,7 +11219,7 @@
 		(at 85.852 29.1999)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J9"
+		(property "Reference" "J20"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "8e9c8da5-bcba-48c0-a221-9b27c469c045")
@@ -11339,7 +11339,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.116279)
-			(net 27 "/~{BRAKE}")
+			(net 26 "/~{BRAKE}")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "6d7682c1-539a-4b4b-ba23-5e8d91908f28")
@@ -11363,7 +11363,7 @@
 		(at 36.576 50.101 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "9d52e712-f96d-4e42-a7dd-3452deb68435")
@@ -11530,7 +11530,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/HS_C")
+			(net 39 "/HS_C")
 			(pintype "passive")
 			(uuid "ed436897-2526-4d41-96ee-076d4dffb51e")
 		)
@@ -11539,7 +11539,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 33 "Net-(Q6-G)")
+			(net 32 "Net-(Q6-G)")
 			(pintype "passive")
 			(uuid "c5827fa6-10d1-443e-99f3-b4bf1ebd67e2")
 		)
@@ -11562,7 +11562,7 @@
 		(at 61.468 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "LSS1"
+		(property "Reference" "J14"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "ffcec09f-8b01-48b2-8cfb-ffa2635c1be5")
@@ -12028,7 +12028,7 @@
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(Q7-G)")
+			(net 33 "Net-(Q7-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_paste_margin -0.05)
@@ -12062,7 +12062,7 @@
 		(at 54.673 64.516)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "3e50cc4a-6721-461f-8092-cb40ddd9a37f")
@@ -12238,7 +12238,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(Q4-G)")
+			(net 30 "Net-(Q4-G)")
 			(pintype "passive")
 			(uuid "0fbf3f13-f470-4279-b1bb-809e6bbf211c")
 		)
@@ -14476,7 +14476,7 @@
 		(at 59.436 63.856 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 0 -3.048 90)
 			(layer "F.SilkS")
 			(uuid "bb71fba8-1ce3-4b25-8c05-025a0c1edc84")
@@ -14643,7 +14643,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 39 "/LS_B")
+			(net 38 "/LS_B")
 			(pintype "passive")
 			(uuid "06334129-35d2-4fa5-8cd5-1fc234dfb556")
 		)
@@ -14652,7 +14652,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(Q5-G)")
+			(net 31 "Net-(Q5-G)")
 			(pintype "passive")
 			(uuid "ce82b546-6413-494f-8f61-1f51d5264d42")
 		)
@@ -14675,7 +14675,7 @@
 		(at 104.14 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "FAULT1"
+		(property "Reference" "J15"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "a8294f62-1163-47c8-9b3a-c3b9ed581f49")
@@ -14819,7 +14819,7 @@
 		(at 85.852 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "nBRAKE1"
+		(property "Reference" "J10"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "d28afb0b-f4eb-4d14-a7b1-1b5694ce72f1")
@@ -14939,7 +14939,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.116279)
-			(net 27 "/~{BRAKE}")
+			(net 26 "/~{BRAKE}")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "a44a5ec0-8278-43cd-b6a1-611e1b2d6911")
@@ -15162,7 +15162,7 @@
 		(at 42.672 92.71)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J22"
+		(property "Reference" "J30"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "41b76b94-5ff1-49dc-a3c6-bd32dbd139bd")
@@ -15306,7 +15306,7 @@
 		(at 77.724 92.456)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J16"
+		(property "Reference" "J24"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "f2ecb502-3cab-4613-b1fc-f024d1f339a6")
@@ -15450,7 +15450,7 @@
 		(at 116.84 78.74)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J25"
+		(property "Reference" "J33"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "ebf54a60-f90b-404e-905c-715fb6a32ed2")
@@ -15594,7 +15594,7 @@
 		(at 44.704 33.02)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "GND2"
+		(property "Reference" "J6"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "d15a550d-a748-4934-868b-677ef5791bf6")
@@ -15738,7 +15738,7 @@
 		(at 98.044 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "EN3"
+		(property "Reference" "J8"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "04b83089-f3d2-4b4e-a456-1e759250d534")
@@ -16203,7 +16203,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 41 "/LS_C")
+			(net 40 "/LS_C")
 			(pinfunction "GLC")
 			(pintype "input")
 			(uuid "ce84119d-0350-480c-9535-5d56288a8de5")
@@ -16213,7 +16213,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/HS_C")
+			(net 39 "/HS_C")
 			(pinfunction "GHC")
 			(pintype "input")
 			(uuid "9e2e752e-246d-4c3f-a376-27f872259ae8")
@@ -16243,7 +16243,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 39 "/LS_B")
+			(net 38 "/LS_B")
 			(pinfunction "GLB")
 			(pintype "input")
 			(uuid "c0eb4f42-6e43-4626-9a99-1d745aef20ce")
@@ -16253,7 +16253,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 38 "/HS_B")
+			(net 37 "/HS_B")
 			(pinfunction "GHB")
 			(pintype "input")
 			(uuid "f9dfde48-635d-40f2-a028-1bfb7446701d")
@@ -16283,7 +16283,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 37 "/LS_A")
+			(net 36 "/LS_A")
 			(pinfunction "GLA")
 			(pintype "input")
 			(uuid "5481141b-1128-431f-af0a-488645738f80")
@@ -16293,7 +16293,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 36 "/HS_A")
+			(net 35 "/HS_A")
 			(pinfunction "GHA")
 			(pintype "input")
 			(uuid "5dab468d-f12a-4a0b-961f-b0c4316f1b6b")
@@ -16373,7 +16373,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 28 "/SPEED")
+			(net 27 "/SPEED")
 			(pinfunction "SPEED")
 			(pintype "input")
 			(uuid "d3429ac6-e614-4529-923e-d9dd8ef205f7")
@@ -16383,7 +16383,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 35 "Net-(U2-TDEAD)")
+			(net 34 "Net-(U2-TDEAD)")
 			(pinfunction "TDEAD")
 			(pintype "input")
 			(uuid "36f7c8f6-5b47-421f-ad08-01b852ed7941")
@@ -16433,7 +16433,7 @@
 			(size 1.55 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 27 "/~{BRAKE}")
+			(net 26 "/~{BRAKE}")
 			(pinfunction "nBRAKE")
 			(pintype "input")
 			(uuid "1010689f-8663-45de-b2a2-5ebe96d4a995")
@@ -16605,7 +16605,7 @@
 		(at 101.68 91.948)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 2.5 -6.25 0)
 			(layer "F.SilkS")
 			(uuid "a7bfd0b5-ef1f-4323-9771-824939b93d3c")
@@ -18680,7 +18680,7 @@
 		(at 49.276 39.815 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 0.127 -1.397 90)
 			(layer "F.SilkS")
 			(uuid "02c4ca6c-a1f4-4f2d-a90c-1855b11b8179")
@@ -18847,7 +18847,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 26 "Net-(J4-Pin_1)")
+			(net 43 "Net-(J4-Pin_1)")
 			(pintype "passive")
 			(uuid "957f0ecc-f166-4a7a-a7cf-cb233b03e055")
 		)
@@ -18856,7 +18856,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 43 "Net-(Q1B-B2)")
+			(net 42 "Net-(Q1B-B2)")
 			(pintype "passive")
 			(uuid "dcd07105-a526-470e-a386-8f5e3095869b")
 		)
@@ -18879,7 +18879,7 @@
 		(at 117.856 42.672)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "GND1"
+		(property "Reference" "J2"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "10e231e6-bf61-4afa-900a-46bbf09cc53e")
@@ -19143,7 +19143,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.116279)
-			(net 26 "Net-(J4-Pin_1)")
+			(net 43 "Net-(J4-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "7bdcf77a-e9b6-4552-ac0d-18b053b03d16")
@@ -19343,7 +19343,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(Q1A-B1)")
+			(net 41 "Net-(Q1A-B1)")
 			(pintype "passive")
 			(uuid "ebae1d8e-5d32-4112-a5ee-25a6743aebb0")
 		)
@@ -19366,7 +19366,7 @@
 		(at 43.371 64.516)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "e88847f9-2b36-4762-b696-bc9300663583")
@@ -19542,7 +19542,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 33 "Net-(Q6-G)")
+			(net 32 "Net-(Q6-G)")
 			(pintype "passive")
 			(uuid "2f6f2d77-2b6f-4c6d-ad23-86c0816f77d5")
 		)
@@ -19565,7 +19565,7 @@
 		(at 91.948 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "DIR1"
+		(property "Reference" "J9"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "45eeeb0c-8399-4473-8d10-056e4987ceae")
@@ -22018,7 +22018,7 @@
 		(at 116.332 23.368)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "SPEED1"
+		(property "Reference" "J16"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "d5fb0d5d-5077-4fcc-938c-cdfacaf1e3e6")
@@ -22138,7 +22138,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.116279)
-			(net 28 "/SPEED")
+			(net 27 "/SPEED")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "398a17f2-74ce-4e6c-bc71-cb794f39b196")
@@ -22306,7 +22306,7 @@
 		(at 48.768 70.46 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "1a189665-ad9c-433b-93b0-be4918597101")
@@ -22482,7 +22482,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(Q7-G)")
+			(net 33 "Net-(Q7-G)")
 			(pintype "passive")
 			(uuid "ea09d41e-42ab-4d63-9a7b-54888bc34669")
 		)
@@ -22505,7 +22505,7 @@
 		(at 87.884 92.456)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 4sqmm")
-		(property "Reference" "J24"
+		(property "Reference" "J32"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "0f8f88a3-856d-4664-b127-b23dda0b9762")
@@ -22649,7 +22649,7 @@
 		(at 45.974 39.878 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R22"
+		(property "Reference" "R7"
 			(at -0.19 1.397 90)
 			(layer "F.SilkS")
 			(uuid "25429225-804e-44b3-97e4-a6a268324b98")
@@ -22816,7 +22816,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 43 "Net-(Q1B-B2)")
+			(net 42 "Net-(Q1B-B2)")
 			(pintype "passive")
 			(uuid "1d36ad19-915c-4fea-b31c-076a80c8b664")
 		)
@@ -23047,7 +23047,7 @@
 		(at 61.461 38.515 90)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "HC1"
+		(property "Reference" "J13"
 			(at 0 -2.28 90)
 			(layer "F.SilkS")
 			(uuid "f1e3dff0-28bf-48a9-94a5-dd8f35255c40")
@@ -23192,7 +23192,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.43 90)
+			(at -3.289 0 90)
 			(layer "F.SilkS")
 			(uuid "0572dfe1-7028-4f1d-a3fd-95d8f69ad3a4")
 			(effects
@@ -23825,7 +23825,7 @@
 		(at 91.948 29.464)
 		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J8"
+		(property "Reference" "J19"
 			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "dc8e39b3-b1c2-4d33-8318-d3d5ba3285d3")
@@ -24103,6 +24103,93 @@
 			)
 		)
 	)
+	(gr_poly
+		(pts
+			(xy 38.096286 52.324) (xy 38.047943 58.935814) (xy 73.66 59.02842) (xy 73.66 99.568) (xy 123.838794 99.507109)
+			(xy 123.965152 60.452) (xy 111.76 60.452) (xy 111.76 84.836) (xy 91.948 84.836) (xy 91.948 74.676)
+			(xy 81.788 74.676) (xy 81.788 52.324)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "16f2525c-86ef-4406-ba36-981f72f285f0")
+	)
+	(gr_rect
+		(start 36.12 53.848)
+		(end 67.088 61.5615)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3e29c756-1876-4af7-a288-8d2071c6e2ce")
+	)
+	(gr_rect
+		(start 36.068 66.1335)
+		(end 68.7645 72.4275)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4382300f-e48d-4fd0-b16b-b18a8a5fb68e")
+	)
+	(gr_poly
+		(pts
+			(xy 39.065419 99.517235) (xy 47.244 99.568) (xy 47.244 74.676) (xy 43.18 74.676) (xy 43.18 59.944)
+			(xy 39.176 59.944)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a6b3ce2e-cfaf-46e2-a96b-3010a6c86375")
+	)
+	(gr_poly
+		(pts
+			(xy 94.488 74.374) (xy 94.488 83.82) (xy 110.308 83.82) (xy 110.233032 74.374)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b5ffd94c-63da-4fb7-8c09-734895900382")
+	)
+	(gr_poly
+		(pts
+			(xy 61.107117 99.454411) (xy 69.7746 99.50821) (xy 69.588277 74.996) (xy 65.24 74.996) (xy 65.24 60.039)
+			(xy 61.306 60.039)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e49415bd-c662-4f59-a2f9-ed6d53ba0972")
+	)
+	(gr_poly
+		(pts
+			(xy 50.436554 99.642395) (xy 58.102138 99.689976) (xy 57.912 74.676) (xy 54.356 74.676) (xy 54.356 59.719)
+			(xy 50.638 59.719)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eead17fb-7977-4c7d-bd70-f67b0d746b20")
+	)
 	(gr_rect
 		(start 35 20)
 		(end 124.332 100)
@@ -24113,6 +24200,357 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f06e415c-1998-4645-b46a-bd85c9371a82")
+	)
+	(gr_text "GND"
+		(at 86.868 86.868 0)
+		(layer "F.SilkS")
+		(uuid "0631fd4d-c349-4181-abf0-afe5b73771ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LSS"
+		(at 59.436 27.432 0)
+		(layer "F.SilkS")
+		(uuid "096dab91-caae-484f-918a-deab7ac7d14b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD"
+		(at 77.724 33.02 0)
+		(layer "F.SilkS")
+		(uuid "0e33ec81-dc33-4c5e-a9bb-7ca690691c01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD"
+		(at 108.712 26.416 0)
+		(layer "F.SilkS")
+		(uuid "1ddf2512-3fb4-459b-b16c-cc6276c486f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LS"
+		(at 36.576 68.072 0)
+		(layer "F.SilkS")
+		(uuid "24bc7e16-df7a-4d8c-b157-c26a2dc6c717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HB"
+		(at 72.136 27.432 0)
+		(layer "F.SilkS")
+		(uuid "2dc50a9f-53d8-42fb-8143-458cf7384b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "EN"
+		(at 97.028 32.512 0)
+		(layer "F.SilkS")
+		(uuid "2f06b72a-9a65-477d-b89c-7eb3f1c2dc41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HA"
+		(at 78.74 27.432 0)
+		(layer "F.SilkS")
+		(uuid "3ca73311-c760-4e17-a088-9b5f3a15c1ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD"
+		(at 96.012 83.82 0)
+		(layer "F.SilkS")
+		(uuid "4f9e307b-7243-4e94-a979-9bfaae311ee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 116.332 45.72 0)
+		(layer "F.SilkS")
+		(uuid "5e8dee3d-c6f8-4bdc-9b80-aa57984f7626")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD LED"
+		(at 94.488 59.944 0)
+		(layer "F.SilkS")
+		(uuid "61b6ca0c-224d-4dc0-86c6-0f868df295ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SPEED"
+		(at 113.792 32.004 0)
+		(layer "F.SilkS")
+		(uuid "87d48194-d6de-4a1b-86ce-d2148e11c038")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HC"
+		(at 66.548 27.432 0)
+		(layer "F.SilkS")
+		(uuid "a38743fb-1b15-40a4-b73c-3d8932e9a327")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INV_C"
+		(at 40.64 86.868 0)
+		(layer "F.SilkS")
+		(uuid "a6828845-2a68-4ec9-a869-bfb8c67636e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B+ LED"
+		(at 94.488 64.516 0)
+		(layer "F.SilkS")
+		(uuid "a7742d26-bc20-4332-885b-30bd222ae1ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 57.404 33.02 0)
+		(layer "F.SilkS")
+		(uuid "adfbcd19-4ed9-4483-b02f-a94732caeb92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LED1"
+		(at 47.752 27.432 0)
+		(layer "F.SilkS")
+		(uuid "b2993988-0b23-45c6-8c3e-be2bee70bb53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INV_B"
+		(at 52.324 86.868 0)
+		(layer "F.SilkS")
+		(uuid "b42f663c-24f4-47e0-ba36-1d8c94d74bdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "nFAULT"
+		(at 101.6 32.512 0)
+		(layer "F.SilkS")
+		(uuid "b557bb11-da61-4e2d-aa1e-ccfb62055403")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DIR"
+		(at 90.932 33.02 0)
+		(layer "F.SilkS")
+		(uuid "b7fe8687-55a5-4fb2-9649-d138240a13b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LED2"
+		(at 53.34 27.432 0)
+		(layer "F.SilkS")
+		(uuid "b896ecad-a490-40ca-83f5-f52975d0c1b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "nBRAKE"
+		(at 82.804 33.02 0)
+		(layer "F.SilkS")
+		(uuid "c796ed2a-be08-4069-a303-1787d5a62c36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HS"
+		(at 36.576 56.388 0)
+		(layer "F.SilkS")
+		(uuid "d20f1aca-4e82-4428-8537-0410099ade44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INV_A"
+		(at 63.5 86.868 0)
+		(layer "F.SilkS")
+		(uuid "d7d0103c-d9bf-4a29-8f50-a1584e8a60df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B+"
+		(at 76.2 86.868 0)
+		(layer "F.SilkS")
+		(uuid "dd9c3db0-893a-4e24-a64b-7cc56fa2cfa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B+"
+		(at 86.36 83.82 0)
+		(layer "F.SilkS")
+		(uuid "e5bbc205-3bf2-48c0-8e34-0fa0e63283fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 101.092 58.928 0)
+		(layer "B.SilkS")
+		(uuid "3d7af414-be95-48b6-971d-a10ea0406a1a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 61.461 61.494)
@@ -24339,14 +24777,6 @@
 		(uuid "007cbec3-337f-476a-8ae9-5a7881697f78")
 	)
 	(segment
-		(start 82.741999 41.935)
-		(end 84.607 41.935)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "00ab3f4c-5960-4171-8605-f9954350948a")
-	)
-	(segment
 		(start 45.655 71.285)
 		(end 45.529 71.159)
 		(width 0.254)
@@ -24361,14 +24791,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "12d3f00a-b7b9-4e43-8f22-8854992dcdb3")
-	)
-	(segment
-		(start 85.917 43.245)
-		(end 84.836 42.164)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "2296f31e-934d-4cc8-9d5f-d71bbe760a8a")
 	)
 	(segment
 		(start 45.529 71.159)
@@ -24537,14 +24959,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "8c77bab8-071e-4590-8ad4-43b6e5e65742")
-	)
-	(segment
-		(start 84.607 41.935)
-		(end 84.836 42.164)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "8e802914-22db-4b62-9f0f-1a8e66621d8a")
 	)
 	(segment
 		(start 91.873 64.008)
@@ -25041,15 +25455,6 @@
 		(free yes)
 		(net 3)
 		(uuid "9ac2b9d0-ab35-4d12-8084-a68dbf204a1f")
-	)
-	(via
-		(at 84.836 42.164)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 3)
-		(uuid "9b7ba1ce-933f-4569-a67a-6a4add5723db")
 	)
 	(via
 		(at 58.42 73.66)
@@ -26609,27 +27014,11 @@
 		(uuid "3c041ce0-635a-41df-b931-5ed93f781d8f")
 	)
 	(segment
-		(start 54.864 22.86)
-		(end 54.864 35.052)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "0dfdc6da-5064-445f-a99e-56043bf19388")
-	)
-	(segment
-		(start 54.864 35.052)
-		(end 49.276 40.64)
-		(width 0.254)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "3b399f39-3ca3-4ed3-ae78-d75a882d39a7")
-	)
-	(segment
 		(start 85.852 32.004)
 		(end 85.852 29.1999)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "05ee9d80-3152-43fd-a1f3-321fd904dd59")
 	)
 	(segment
@@ -26637,7 +27026,7 @@
 		(end 89.916 36.068)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "0ee9b6c0-713a-4c72-b759-2b62deb8f4f7")
 	)
 	(segment
@@ -26645,7 +27034,7 @@
 		(end 88.703 43.885)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "2e8657d9-cfad-4b6c-84cb-b317d6843ced")
 	)
 	(segment
@@ -26653,7 +27042,7 @@
 		(end 85.852 23.368)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "961837ce-2bd2-478a-909d-cab7c2eddb6f")
 	)
 	(segment
@@ -26661,7 +27050,7 @@
 		(end 85.852 32.004)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "b5d313d7-f699-42f2-b5f3-2643fe0caeff")
 	)
 	(segment
@@ -26669,7 +27058,7 @@
 		(end 89.916 42.672)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 27)
+		(net 26)
 		(uuid "bbbc382e-4989-47b1-9134-863f2302a9c3")
 	)
 	(segment
@@ -26677,7 +27066,7 @@
 		(end 116.332 37.295246)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 28)
+		(net 27)
 		(uuid "0439590d-882a-4a5e-8807-2dc69cbbf95e")
 	)
 	(segment
@@ -26685,7 +27074,7 @@
 		(end 105.842246 47.785)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 28)
+		(net 27)
 		(uuid "7b522ad4-0662-405e-b039-0751773657f4")
 	)
 	(segment
@@ -26693,7 +27082,7 @@
 		(end 116.332 23.368)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 28)
+		(net 27)
 		(uuid "e7273f69-1041-4bf7-91ce-b9a58ee4dbef")
 	)
 	(segment
@@ -26701,7 +27090,7 @@
 		(end 66.096 63.747)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 29)
+		(net 28)
 		(uuid "0c614200-0588-48c4-a5d2-78bd424af03d")
 	)
 	(segment
@@ -26709,7 +27098,7 @@
 		(end 66.096 60.669)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 29)
+		(net 28)
 		(uuid "33b04bb2-b92b-49b5-ae56-f78aeecf142f")
 	)
 	(segment
@@ -26717,7 +27106,7 @@
 		(end 58.42 51.816)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 29)
+		(net 28)
 		(uuid "a0f750e8-f3c2-4f19-84ef-4211c4e3be5b")
 	)
 	(segment
@@ -26725,7 +27114,7 @@
 		(end 57.912 51.308)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 29)
+		(net 28)
 		(uuid "a222d249-4eb4-4f56-8fc7-41d7cddfc128")
 	)
 	(segment
@@ -26733,7 +27122,7 @@
 		(end 66.096 61.976)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 29)
+		(net 28)
 		(uuid "e88fa5c4-de1f-4d9d-a6e0-32a25d4182e9")
 	)
 	(via
@@ -26741,7 +27130,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 29)
+		(net 28)
 		(uuid "2f1a8fcc-05a5-474c-8461-e43df31c01de")
 	)
 	(via
@@ -26749,7 +27138,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 29)
+		(net 28)
 		(uuid "cb12710e-fdfc-4d6a-a06b-cc15333ae38a")
 	)
 	(segment
@@ -26757,7 +27146,7 @@
 		(end 60.452 61.976)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 29)
+		(net 28)
 		(uuid "0f88ec03-6d7c-4de3-a838-242e217d50e1")
 	)
 	(segment
@@ -26765,7 +27154,7 @@
 		(end 66.096 61.976)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 29)
+		(net 28)
 		(uuid "4810aaa8-1afd-45eb-8183-6c665fc44905")
 	)
 	(segment
@@ -26773,7 +27162,7 @@
 		(end 58.42 59.944)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 29)
+		(net 28)
 		(uuid "990f433f-8bb3-4796-b65f-18aaac6702ca")
 	)
 	(segment
@@ -26781,7 +27170,7 @@
 		(end 69.889 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 30)
+		(net 29)
 		(uuid "4732916d-1de1-45de-af6d-6fec50e8edad")
 	)
 	(segment
@@ -26789,7 +27178,7 @@
 		(end 68.072 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 30)
+		(net 29)
 		(uuid "6aada830-6c32-4c55-8952-44d66e0692a6")
 	)
 	(segment
@@ -26797,7 +27186,7 @@
 		(end 70.104 64.681)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 30)
+		(net 29)
 		(uuid "8ac0d7c3-aa1f-44b1-b965-5efdffbc6bfa")
 	)
 	(segment
@@ -26805,7 +27194,7 @@
 		(end 71.12 68.58)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 30)
+		(net 29)
 		(uuid "946a5353-4f45-42ee-aba7-90ba676cdb6a")
 	)
 	(segment
@@ -26813,7 +27202,7 @@
 		(end 70.104 65.317)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 30)
+		(net 29)
 		(uuid "bb55584c-4372-41d5-b25c-199dd78765c7")
 	)
 	(segment
@@ -26821,7 +27210,7 @@
 		(end 47.752 51.816)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 31)
+		(net 30)
 		(uuid "112fd284-a427-4e58-ab1f-710f6f742ccf")
 	)
 	(segment
@@ -26829,7 +27218,7 @@
 		(end 55.498 62.484)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 31)
+		(net 30)
 		(uuid "295ff3b5-0855-42e1-9721-ca48dcb2d5d4")
 	)
 	(segment
@@ -26837,7 +27226,7 @@
 		(end 55.498 61.049)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 31)
+		(net 30)
 		(uuid "6a7f8c7f-527b-46af-81ba-753b194e7729")
 	)
 	(segment
@@ -26845,7 +27234,7 @@
 		(end 55.118 60.669)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 31)
+		(net 30)
 		(uuid "6fdf6726-fd41-456c-a3dd-7e62c3443c03")
 	)
 	(segment
@@ -26853,7 +27242,7 @@
 		(end 46.862 50.926)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 31)
+		(net 30)
 		(uuid "b0292b84-8eb5-4a6b-ab2f-20726161b781")
 	)
 	(via
@@ -26861,7 +27250,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 31)
+		(net 30)
 		(uuid "3b5d40aa-3aae-411b-aece-5341c6382e39")
 	)
 	(via
@@ -26869,7 +27258,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 31)
+		(net 30)
 		(uuid "f1aab5ef-bb8c-434d-aede-4778e9db11e5")
 	)
 	(segment
@@ -26877,7 +27266,7 @@
 		(end 47.752 61.366127)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 31)
+		(net 30)
 		(uuid "46498e6b-f8f8-4880-939e-760ccaea1d80")
 	)
 	(segment
@@ -26885,7 +27274,7 @@
 		(end 55.498 62.484)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 31)
+		(net 30)
 		(uuid "58b40a5d-dcfd-4aa2-8c8d-8d85699be9df")
 	)
 	(segment
@@ -26893,7 +27282,7 @@
 		(end 48.869873 62.484)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 31)
+		(net 30)
 		(uuid "c8475f62-eca3-4dca-8360-c018781b131e")
 	)
 	(segment
@@ -26901,7 +27290,7 @@
 		(end 59.944 68.072)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 32)
+		(net 31)
 		(uuid "0ac6b41c-81f2-43be-a020-1e0f6e1599f7")
 	)
 	(segment
@@ -26909,7 +27298,7 @@
 		(end 59.944 69.635)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 32)
+		(net 31)
 		(uuid "4e1e6f1a-f3cf-4e1a-95df-291c9cf4ca4e")
 	)
 	(segment
@@ -26917,7 +27306,7 @@
 		(end 56.896 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 32)
+		(net 31)
 		(uuid "b4675bf1-af9a-4a5d-8187-aa4de441a6af")
 	)
 	(segment
@@ -26925,7 +27314,7 @@
 		(end 59.221 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 32)
+		(net 31)
 		(uuid "d04113ea-113d-4a67-bcb6-fccbb35e9577")
 	)
 	(segment
@@ -26933,7 +27322,7 @@
 		(end 59.436 64.809)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 32)
+		(net 31)
 		(uuid "da1b57cc-d5cb-4d31-9f2a-b0140ec0d677")
 	)
 	(segment
@@ -26941,7 +27330,7 @@
 		(end 44.196 64.516)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "1a662cbe-cd23-469f-81ca-a8e7a2bbb900")
 	)
 	(segment
@@ -26949,7 +27338,7 @@
 		(end 44.196 62.484)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "1a844dec-e529-4889-b897-d9f286f8a367")
 	)
 	(segment
@@ -26957,7 +27346,7 @@
 		(end 37.974 50.926)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "1d36eaa9-f438-45b4-90a5-389c3e7fa68a")
 	)
 	(segment
@@ -26965,7 +27354,7 @@
 		(end 43.688 60.747)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "1e95b03b-4c52-436f-bc29-25138c0af057")
 	)
 	(segment
@@ -26973,7 +27362,7 @@
 		(end 36.576 50.926)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "4296f489-0214-4a53-b5f3-01a0e64a26b4")
 	)
 	(segment
@@ -26981,7 +27370,7 @@
 		(end 43.766 60.669)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "8688c0f0-d4fe-4fe2-8737-ded93c53d7b7")
 	)
 	(segment
@@ -26989,7 +27378,7 @@
 		(end 38.1 50.8)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 33)
+		(net 32)
 		(uuid "bde53a07-72c5-440f-9415-d9b35ada4996")
 	)
 	(via
@@ -26997,7 +27386,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 33)
+		(net 32)
 		(uuid "a282bb7e-f2b2-4345-ab17-b0d36cbe5573")
 	)
 	(via
@@ -27005,7 +27394,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 33)
+		(net 32)
 		(uuid "b482091e-4aab-4e34-bf9a-5061bf0fb3b2")
 	)
 	(segment
@@ -27013,7 +27402,7 @@
 		(end 43.688 61.976)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 33)
+		(net 32)
 		(uuid "7d24f304-46ec-448f-b13b-8d9d137347ee")
 	)
 	(segment
@@ -27021,7 +27410,7 @@
 		(end 41.148 54.356)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 33)
+		(net 32)
 		(uuid "cf92741d-bce8-47fe-a1b8-11c9f3e3470c")
 	)
 	(segment
@@ -27029,7 +27418,7 @@
 		(end 43.688 56.896)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 33)
+		(net 32)
 		(uuid "da43fa70-3efe-40c2-88af-0d5c8a2b1e9c")
 	)
 	(segment
@@ -27037,7 +27426,7 @@
 		(end 45.529 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 34)
+		(net 33)
 		(uuid "1cc6a7d1-da1a-4315-8635-eb62952ef454")
 	)
 	(segment
@@ -27045,7 +27434,7 @@
 		(end 48.045 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 34)
+		(net 33)
 		(uuid "288edf92-bb21-4814-98c4-af772c1ae256")
 	)
 	(segment
@@ -27053,7 +27442,7 @@
 		(end 48.768 68.072)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 34)
+		(net 33)
 		(uuid "4a23b451-89d2-47c9-98ad-5db7dd4c1086")
 	)
 	(segment
@@ -27061,7 +27450,7 @@
 		(end 45.529 67.349)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 34)
+		(net 33)
 		(uuid "b80d9213-f2cd-4ead-8ed2-9f2099e6845c")
 	)
 	(segment
@@ -27069,7 +27458,7 @@
 		(end 48.768 64.681)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 34)
+		(net 33)
 		(uuid "fe6976b5-7a8e-48c4-9c26-5943357a83b2")
 	)
 	(segment
@@ -27077,7 +27466,7 @@
 		(end 102.108 47.135)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 35)
+		(net 34)
 		(uuid "37c68b81-0896-480a-855d-34b1acd3d90b")
 	)
 	(segment
@@ -27085,7 +27474,7 @@
 		(end 87.717 47.135)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 35)
+		(net 34)
 		(uuid "48595eda-9ac6-4af0-886c-0347b520c2f7")
 	)
 	(segment
@@ -27093,7 +27482,7 @@
 		(end 103.397 45.846)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 35)
+		(net 34)
 		(uuid "d3c66460-d95d-443c-b6ee-940172e86db8")
 	)
 	(segment
@@ -27101,7 +27490,7 @@
 		(end 81.967 48.435)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 36)
+		(net 35)
 		(uuid "1286c993-4f00-4d70-88fd-7785b2fb5db5")
 	)
 	(segment
@@ -27109,7 +27498,7 @@
 		(end 58.753 48.435)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 36)
+		(net 35)
 		(uuid "8b467e42-7629-49eb-bf4b-8e41f82a1bee")
 	)
 	(segment
@@ -27117,7 +27506,7 @@
 		(end 69.01 63.031)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 37)
+		(net 36)
 		(uuid "0673669f-969c-4ef5-ad8b-9f369fa386f3")
 	)
 	(segment
@@ -27125,7 +27514,7 @@
 		(end 78.763 47.785)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 37)
+		(net 36)
 		(uuid "08545cc0-2752-437d-8bb9-caadf59f3dff")
 	)
 	(segment
@@ -27133,7 +27522,7 @@
 		(end 81.967 47.785)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 37)
+		(net 36)
 		(uuid "349a3c3c-40ac-4fc5-b390-d267b2869f3c")
 	)
 	(segment
@@ -27141,7 +27530,7 @@
 		(end 78.74 47.808)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 37)
+		(net 36)
 		(uuid "821402f7-9bc9-4c83-8190-104f030accec")
 	)
 	(segment
@@ -27149,7 +27538,7 @@
 		(end 68.58 63.461)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 37)
+		(net 36)
 		(uuid "fa310f6b-59ff-42c3-b5ae-b862f5024de4")
 	)
 	(via
@@ -27157,7 +27546,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 37)
+		(net 36)
 		(uuid "0e3523a8-af39-47ae-8f01-7aea88b4d044")
 	)
 	(via
@@ -27165,7 +27554,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 37)
+		(net 36)
 		(uuid "318a7e4f-0235-406a-a673-4ee080ca3790")
 	)
 	(segment
@@ -27173,7 +27562,7 @@
 		(end 68.58 63.461)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 37)
+		(net 36)
 		(uuid "84b232c5-11e5-4ac1-8b29-911faaaafa5f")
 	)
 	(segment
@@ -27181,7 +27570,7 @@
 		(end 68.58 50.8)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 37)
+		(net 36)
 		(uuid "ddbfe551-729d-416b-817e-e54a5f1f4b5c")
 	)
 	(segment
@@ -27189,7 +27578,7 @@
 		(end 50.138 45.835)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 38)
+		(net 37)
 		(uuid "36459f83-8fca-4ab2-918c-6ac66a3a5e79")
 	)
 	(segment
@@ -27197,7 +27586,7 @@
 		(end 81.967 45.835)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 38)
+		(net 37)
 		(uuid "49e3aea4-94e2-4f23-bde6-32d0cfbc93b5")
 	)
 	(segment
@@ -27205,7 +27594,7 @@
 		(end 56.974 63.031)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 39)
+		(net 38)
 		(uuid "54b65362-ff22-41e3-9704-8bf11a240788")
 	)
 	(segment
@@ -27213,7 +27602,7 @@
 		(end 60.452 45.208)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 39)
+		(net 38)
 		(uuid "a6171d9c-cc1f-4af3-be77-095f0daa80dd")
 	)
 	(segment
@@ -27221,7 +27610,7 @@
 		(end 59.436 63.031)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 39)
+		(net 38)
 		(uuid "ac9e3b84-b1ba-463b-8b02-7d5bb65670ba")
 	)
 	(segment
@@ -27229,7 +27618,7 @@
 		(end 60.475 45.185)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 39)
+		(net 38)
 		(uuid "b4ddca02-41f4-485e-94eb-e2091bfe2c4e")
 	)
 	(via
@@ -27237,7 +27626,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 39)
+		(net 38)
 		(uuid "80ad68b0-650b-4d31-90c3-f74b503c3130")
 	)
 	(via
@@ -27245,7 +27634,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 39)
+		(net 38)
 		(uuid "d219c2d4-af5c-4b91-a138-1baf021c6d9a")
 	)
 	(segment
@@ -27253,7 +27642,7 @@
 		(end 60.452 45.208)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 39)
+		(net 38)
 		(uuid "397d96fd-62be-4e7b-bac1-8f7771ba4333")
 	)
 	(segment
@@ -27261,7 +27650,7 @@
 		(end 56.896 48.764)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 39)
+		(net 38)
 		(uuid "3d2eef40-801d-4974-b57d-1cec47840bab")
 	)
 	(segment
@@ -27269,7 +27658,7 @@
 		(end 49.729 43.235)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 40)
+		(net 39)
 		(uuid "1821ec21-41cd-4201-a13f-cd5242b77a95")
 	)
 	(segment
@@ -27277,7 +27666,7 @@
 		(end 36.576 49.276)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 40)
+		(net 39)
 		(uuid "cd609701-3cbc-4d46-b048-4cc9f20d17d1")
 	)
 	(segment
@@ -27285,7 +27674,7 @@
 		(end 43.688 49.276)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 40)
+		(net 39)
 		(uuid "f668c93f-c16d-46b2-9be7-f3beb28783a5")
 	)
 	(segment
@@ -27293,7 +27682,7 @@
 		(end 48.768 63.031)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 41)
+		(net 40)
 		(uuid "22cc6d36-e7cd-40a7-bf45-9c439a492d97")
 	)
 	(segment
@@ -27301,7 +27690,7 @@
 		(end 45.29 63.031)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 41)
+		(net 40)
 		(uuid "6f653580-6096-46b3-8a76-7703d1f44254")
 	)
 	(segment
@@ -27309,7 +27698,7 @@
 		(end 81.967 42.585)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 41)
+		(net 40)
 		(uuid "c01595cd-9a8a-48e2-8e87-a375185f5227")
 	)
 	(via
@@ -27317,7 +27706,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 41)
+		(net 40)
 		(uuid "23620de7-a800-4517-902c-704adddc4d6f")
 	)
 	(via
@@ -27325,7 +27714,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 41)
+		(net 40)
 		(uuid "e19bd3a1-e135-4811-b07a-d42957d6239b")
 	)
 	(segment
@@ -27333,7 +27722,7 @@
 		(end 45.212 52.745)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 41)
+		(net 40)
 		(uuid "27156985-a773-45d6-8ae5-025b7d3e7f9b")
 	)
 	(segment
@@ -27341,7 +27730,7 @@
 		(end 55.372 42.585)
 		(width 0.254)
 		(layer "B.Cu")
-		(net 41)
+		(net 40)
 		(uuid "f33e97ce-2fc5-48bc-9ab0-52f7b270874a")
 	)
 	(segment
@@ -27349,7 +27738,7 @@
 		(end 38.674 38.924)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 42)
+		(net 41)
 		(uuid "0348c16a-eba7-4849-84da-d4321f1bfd16")
 	)
 	(segment
@@ -27357,7 +27746,7 @@
 		(end 38.608 38.99)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 42)
+		(net 41)
 		(uuid "616c5047-ec5f-4f82-9ba6-0e369baaf7f8")
 	)
 	(segment
@@ -27365,7 +27754,7 @@
 		(end 38.608 38.99)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 42)
+		(net 41)
 		(uuid "d1db9a14-30a1-48ca-9649-6e2861850265")
 	)
 	(segment
@@ -27373,7 +27762,7 @@
 		(end 36.068 33.528)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "0649b7f3-790d-49ca-b13b-e174de975f05")
 	)
 	(segment
@@ -27381,7 +27770,7 @@
 		(end 38.674 31.196)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "191608ae-d8ed-43de-b3b3-ea2217834cdb")
 	)
 	(segment
@@ -27389,7 +27778,7 @@
 		(end 36.068 40.64)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "29d7ccb4-1ee1-41e7-8ac7-cb46cbaeeeee")
 	)
 	(segment
@@ -27397,7 +27786,7 @@
 		(end 38.608 31.262)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "8b85b256-a6d3-415a-9a40-e9d35d8d925d")
 	)
 	(segment
@@ -27405,7 +27794,7 @@
 		(end 42.355 42.672)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "929db0c9-92c5-44fa-b664-60d5c53ded72")
 	)
 	(segment
@@ -27413,7 +27802,7 @@
 		(end 45.974 39.053)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "9ee9f045-c1e0-491d-801c-ee83ff43814e")
 	)
 	(segment
@@ -27421,7 +27810,7 @@
 		(end 38.1 42.672)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "bda7db64-c03d-4cc6-8f24-0125bcfc0845")
 	)
 	(segment
@@ -27429,7 +27818,7 @@
 		(end 45.974 39.053)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "c00656fc-4928-4acd-bff7-80962f29f1dc")
 	)
 	(segment
@@ -27437,7 +27826,7 @@
 		(end 46.037 38.99)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "d9a47b24-e445-47ee-a088-211c610667bc")
 	)
 	(segment
@@ -27445,7 +27834,7 @@
 		(end 38.149054 32.004)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "e7c37e5a-4284-47fc-a40b-4df387036ac7")
 	)
 	(segment
@@ -27453,8 +27842,24 @@
 		(end 37.592 32.004)
 		(width 0.254)
 		(layer "F.Cu")
-		(net 43)
+		(net 42)
 		(uuid "edaf0af2-fda6-4d50-a9a6-068d82314473")
+	)
+	(segment
+		(start 54.864 22.86)
+		(end 54.864 35.052)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 43)
+		(uuid "0dfdc6da-5064-445f-a99e-56043bf19388")
+	)
+	(segment
+		(start 54.864 35.052)
+		(end 49.276 40.64)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 43)
+		(uuid "3b399f39-3ca3-4ed3-ae78-d75a882d39a7")
 	)
 	(zone
 		(net 4)
